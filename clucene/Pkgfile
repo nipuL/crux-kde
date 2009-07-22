@@ -1,0 +1,22 @@
+# Description: A high-performance, scalable, cross platform Lucene clone in C++
+# URL: http://clucene.sourceforge.net/index.php/Main_Page
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on:
+
+name=clucene
+version=0.9.21b
+release=2
+source=(http://kent.dl.sourceforge.net/sourceforge/clucene/$name-core-$version.tar.bz2)
+
+build () {
+	cd $name-core-$version
+	CXXFLAGS="$CXXFLAGS -fPIC"
+	./configure --prefix=/usr \
+		    --disable-debug \
+		    --disable-nls
+
+	make
+	make prefix=$PKG/usr install
+
+	chown -R root:root $PKG
+}

@@ -1,0 +1,23 @@
+# Description: KDE graphics
+# URL: http://kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: kdebase poppler libtiff libspectre gphoto2 sane exiv2
+
+name=kdegraphics
+version=4.2.4
+release=1
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+
+	mkdir build
+	cd build
+ 
+	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release 
+	
+	nice make -j2
+	make DESTDIR=$PKG install
+
+	chown -R root:root $PKG
+}

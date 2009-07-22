@@ -1,0 +1,36 @@
+# Description: KDE base files
+# URL: http://kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: kdebase-runtime xmms xorg-libxcomposite xorg-libxinerama lm_sensors
+
+name=kdebase-workspace
+version=4.2.4
+release=1
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2 
+	kdm-zsh-profile.patch kdm kde.pam kde-np.pam kscreensaver.pam fixpath.patch)
+
+
+build () {
+	cd $name-$version
+
+	patch -p0 -i $SRC/kdm-zsh-profile.patch
+       patch -p0 -i $SRC/fixpath.patch 
+
+	mkdir build
+	cd build
+ 
+	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DWITH_Xmms=OFF \
+		-DWITH_Googlegadgets=OFF -DWITH_QEdje=OFF
+	
+	nice make -j3
+	make DESTDIR=$PKG install
+
+	install -D -m755 $SRC/kdm $PKG/etc/rc.d/kdm
+        install -D -m644 $SRC/kde.pam $PKG/etc/pam.d/kde
+        install -D -m644 $SRC/kde-np.pam $PKG/etc/pam.d/kde-np
+        install -D -m644 $SRC/kscreensaver.pam $PKG/etc/pam.d/kscreensaver
+        install -d -m755 $PKG/etc/X11/sessions/
+        ln -sf /usr/share/apps/kdm/sessions/kde{,-safe}.desktop $PKG/etc/X11/sessions/
+        install -d -m755 $PKG/etc/kde/{env,shutdown}
+	chown -R root:root $PKG
+}

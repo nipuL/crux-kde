@@ -1,0 +1,23 @@
+# Description:	C library that handles RDF queries
+# URL:		http://librdf.org/rasqal/
+# Maintainer:	Oleksiy Khilkevich <grim@asu.ntu-kpi.kiev.ua>
+# Depends on:	libmpfr, raptor
+
+name=rasqal
+version=0.9.16
+release=1
+source=(http://download.librdf.org/source/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure \
+	    --prefix=/usr \
+	    --datarootdir=/usr \
+	    --disable-static
+
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/gtk-doc
+}
+

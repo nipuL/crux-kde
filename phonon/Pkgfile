@@ -1,0 +1,18 @@
+# Description: The multimedia API for KDE 4
+# URL: http://phonon.kde.org
+# Maintainer:  Hannes Mayer, kontakt at ecarux dot de 
+# Depends on: qt4 alsa-lib
+
+name=phonon 
+version=4.3.0 
+release=1 
+source=(ftp://ftp.kde.org/pub/kde/stable/phonon/$version/phonon-$version.tar.bz2) 
+
+build() { 
+	 cd $name-$version 
+	 mkdir build
+	 cd build
+	 cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release 
+ 	 make 
+ 	 make DESTDIR=$PKG install 
+}

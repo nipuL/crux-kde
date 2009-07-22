@@ -1,0 +1,8 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/automoc4
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/automoc4/
+-rw-r--r--	root/root	usr/lib/automoc4/Automoc4Config.cmake
+-rw-r--r--	root/root	usr/lib/automoc4/Automoc4Version.cmake
+-rw-r--r--	root/root	usr/lib/automoc4/automoc4.files.in

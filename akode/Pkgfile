@@ -1,0 +1,27 @@
+# Description: aKode is the decoding library 
+# URL: http://carewolf.com/akode/ 
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: ffmpeg flac
+
+name=akode 
+version=2.0.2
+release=2 
+source=(http://archlinux.org/~alexander/src/akode-$version.tar.bz2 \
+	akode-2.0.2-flac14.patch akode-ffmpeg.patch akode-gcc43.patch) 
+
+build() { 
+	 cd $name-$version 
+	 patch -Np0 -i $SRC/akode-2.0.2-flac14.patch
+	 patch -Np0 -i $SRC/akode-ffmpeg.patch
+	 patch -Np1 -i $SRC/akode-gcc43.patch
+	 ./configure --prefix=/usr \
+		     --without-polypaudio \
+                     --without-ffmpeg \
+                     --with-flac \
+                     --with-vorbis \
+                     --with-jack \
+                     --with-speex \
+                     --with-libmad
+ 	 make 
+ 	 make DESTDIR=$PKG install 
+}

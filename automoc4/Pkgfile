@@ -1,0 +1,18 @@
+# Description: KDE automoc4
+# URL: http://www.kde.org
+# Maintainer:  Hannes Mayer, kontakt at ecarux dot de 
+# Depends on: qt4
+
+name=automoc4 
+version=0.9.88
+release=1 
+source=(ftp://ftp.archlinux.org/other/automoc4/automoc4-$version.tar.bz2) 
+
+build() { 
+	 cd $name-$version 
+	 mkdir build
+	 cd build
+	 cmake .. -DCMAKE_INSTALL_PREFIX=/usr 
+ 	 make 
+ 	 make DESTDIR=$PKG install 
+}

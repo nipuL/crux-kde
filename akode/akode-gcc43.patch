@@ -1,0 +1,43 @@
+--- akode-2.0.2/akode/lib/auto_sink.cpp.orig	2009-01-28 21:09:02.000000000 +0100
++++ akode-2.0.2/akode/lib/auto_sink.cpp	2009-01-28 21:09:52.000000000 +0100
+@@ -21,6 +21,7 @@
+ #include "audioframe.h"
+ #include "auto_sink.h"
+ 
++#include <cstdlib>
+ #include <iostream>
+ 
+ namespace aKode {
+--- akode-2.0.2/akode/akodeplay/akodeplay.cpp.orig	2009-01-28 21:11:57.000000000 +0100
++++ akode-2.0.2/akode/akodeplay/akodeplay.cpp	2009-01-28 21:21:53.000000000 +0100
+@@ -25,6 +25,9 @@
+ #include "../lib/sink.h"
+ #include "../lib/decoder.h"
+ 
++#include <cstdlib>
++#include <string.h>
++
+ #ifdef HAVE_GNU_GETOPT
+   #include <getopt.h>
+ #else
+--- akode-2.0.2/akode/lib/player.cpp.orig	2009-01-28 21:25:44.000000000 +0100
++++ akode-2.0.2/akode/lib/player.cpp	2009-01-28 21:26:06.000000000 +0100
+@@ -22,6 +22,8 @@
+ #include <semaphore.h>
+ #include <assert.h>
+ 
++#include <string.h>
++
+ #include "audioframe.h"
+ #include "audiobuffer.h"
+ #include "decoder.h"
+--- akode-2.0.2/akode/lib/magic.cpp.orig	2009-01-28 21:29:49.000000000 +0100
++++ akode-2.0.2/akode/lib/magic.cpp	2009-01-28 21:30:15.000000000 +0100
+@@ -22,6 +22,7 @@
+ #include "magic.h"
+ #include "file.h"
+ #include <iostream>
++#include <cstring>
+ using std::cerr;
+ 
+ namespace aKode {

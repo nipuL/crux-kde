@@ -1,0 +1,16 @@
+# Description: An open source reference implementation of the icalendar data type and serialization format 
+# URL: http://sourceforge.net/projects/freeassociation/
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de 
+# Depends on: 
+
+name=libical 
+version=0.43 
+release=1 
+source=(http://downloads.sourceforge.net/sourceforge/freeassociation/$name-$version.tar.gz) 
+
+build() { 
+	 cd $name-$version 
+	 ./configure --prefix=/usr --enable-shared --disable-static
+ 	 make 
+ 	 make DESTDIR=$PKG install 
+}

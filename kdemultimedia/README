@@ -1,0 +1,3 @@
+kdemultimedia won't compile with cdparanoia 10.2 from opt repositorie.
+please use the old 10.1 from ecarux -DWITH_Cdparanoia=OFF option in the Pkgfile. 
+Thanks to Markus Heinz

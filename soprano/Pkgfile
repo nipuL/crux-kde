@@ -1,0 +1,22 @@
+# Description: 
+# URL: http:/soprano.sourceforge.net
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: cmake, redland
+
+name=soprano
+version=2.2.4
+release=1
+source=(http://dl.sourceforge.net/sourceforge/soprano/soprano-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+
+	mkdir build
+	cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+
+	chown -R root:root $PKG
+}

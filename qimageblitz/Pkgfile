@@ -1,0 +1,23 @@
+# Description: blitz graphy lib
+# URL: http://www.kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: cmake
+
+name=qimageblitz
+version=svn
+release=1
+source=()
+
+build () {
+	svn co svn://anonsvn.kde.org/home/kde/trunk/kdesupport/qimageblitz
+	cd $name
+
+	mkdir build
+	cd build
+
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+
+	chown -R root:root $PKG
+}

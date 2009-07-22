@@ -1,0 +1,31 @@
+# Description: KDE base libs
+# URL: http://kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: cmake, strigi, soprano, hal, dbus, xorg-server, shared-mime-info, libungif, taglib, qimageblitz, qca, akode, eigen, gmm, automoc4, phonon, libpcre
+
+name=kdelibs
+version=4.2.4
+release=1
+source=(http://download.kde.org/stable/$version/src/kdelibs-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+	
+
+	mkdir build
+	cd build
+
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+		 -DCMAKE_BUILD_TYPE=Release \
+		 -DKDE_DISTRIBUTION_TEXT='CRUX' \
+		 -DSYSCONF_INSTALL_DIR=/etc \
+		 -DKDE_DEFAULT_HOME='.kde4' \
+		 -DWITH_FAM=OFF 
+	nice make -j3
+	make DESTDIR=$PKG install
+
+	rm -f $PKG/usr/share/apps/kssl/ca-bundle.crt
+	ln -sf /etc/ssl/certs/ca-certificates.crt $PKG/usr/share/apps/kssl/ca-bundle.crt
+
+	chown -R root:root $PKG
+}

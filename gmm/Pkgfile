@@ -1,0 +1,16 @@
+# Description: a generic C++ template library for sparse, dense and skyline matrices
+# URL:  http://www-gmm.insa-toulouse.fr/getfem/gmm_intro
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: 
+
+name=gmm 
+version=3.1
+release=1 
+source=(http://download.gna.org/getfem/stable/$name-$version.tar.gz) 
+
+build() { 
+	 cd $name-$version 
+	 ./configure --prefix=/usr 
+ 	 make 
+ 	 make DESTDIR=$PKG install 
+}
