@@ -1,0 +1,24 @@
+# Description: KDE Developer tools
+# URL: http://www.kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: kdebase, cvs, subversion
+
+name=kdesdk
+version=4.2.2
+release=1
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
+
+build() {
+	 cd $name-$version
+
+        mkdir build
+        cd build
+
+        cmake   .. -DCMAKE_INSTALL_PREFIX=/usr \
+		   -DCMAKE_BUILD_TYPE=Release
+
+        nice make -j2
+        make DESTDIR=$PKG install
+
+        chown -R root:root $PKG
+}

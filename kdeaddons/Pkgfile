@@ -1,0 +1,19 @@
+# Description: Additional plugins and scripts for some KDE applications
+# URL: http://www.kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: kdebase, kdegraphics, kdemultimedia, kdenetwork, kdepim, kdeutils
+
+name=kdeaddons
+version=3.5.8
+release=1
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
+
+build() {
+    cd $name-$version
+    ./configure	--prefix=/usr \
+        --disable-dependency-tracking \
+        --disable-debug \
+        --enable-final
+    make
+    make DESTDIR=$PKG install
+}

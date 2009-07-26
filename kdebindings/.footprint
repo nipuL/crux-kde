@@ -1,0 +1,34 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/rbqtapi
+-rwxr-xr-x	root/root	usr/bin/rbqtsh
+-rwxr-xr-x	root/root	usr/bin/rbrcc
+-rwxr-xr-x	root/root	usr/bin/rbuic4
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/smoke.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/kde4/
+-rwxr-xr-x	root/root	usr/lib/kde4/krosspython.so
+-rwxr-xr-x	root/root	usr/lib/kde4/krossruby.so
+-rwxr-xr-x	root/root	usr/lib/kde4/krubypluginfactory.so
+lrwxrwxrwx	root/root	usr/lib/libsmokekde.so -> libsmokekde.so.2
+lrwxrwxrwx	root/root	usr/lib/libsmokekde.so.2 -> libsmokekde.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libsmokekde.so.2.0.0
+lrwxrwxrwx	root/root	usr/lib/libsmokeqt.so -> libsmokeqt.so.2
+lrwxrwxrwx	root/root	usr/lib/libsmokeqt.so.2 -> libsmokeqt.so.2.0.0
+-rwxr-xr-x	root/root	usr/lib/libsmokeqt.so.2.0.0
+drwxr-xr-x	root/root	usr/lib/ruby/
+drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/
+drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/
+drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/KDE/
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/KDE/korundum4.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt.rb
+drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/Qt/
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt/active_item_model.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt/active_table_model.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt/qtruby4.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt3.rb
+-rw-r--r--	root/root	usr/lib/ruby/site_ruby/1.8/Qt4.rb
+drwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/linux/
+-rwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/linux/korundum4.so
+-rwxr-xr-x	root/root	usr/lib/ruby/site_ruby/1.8/linux/qtruby4.so
