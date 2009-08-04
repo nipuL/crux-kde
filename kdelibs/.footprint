@@ -318,6 +318,7 @@ drwxr-xr-x	root/root	usr/include/KDE/KAccelGen/
 -rw-r--r--	root/root	usr/include/KDE/KDirModel
 -rw-r--r--	root/root	usr/include/KDE/KDirOperator
 -rw-r--r--	root/root	usr/include/KDE/KDirSelectDialog
+-rw-r--r--	root/root	usr/include/KDE/KDirSortFilterProxyModel
 -rw-r--r--	root/root	usr/include/KDE/KDirWatch
 -rw-r--r--	root/root	usr/include/KDE/KDiskFreeSpace
 -rw-r--r--	root/root	usr/include/KDE/KDiskFreeSpaceInfo
@@ -338,23 +339,27 @@ drwxr-xr-x	root/root	usr/include/KDE/KAccelGen/
 -rw-r--r--	root/root	usr/include/KDE/KFileDialog
 -rw-r--r--	root/root	usr/include/KDE/KFileFilterCombo
 -rw-r--r--	root/root	usr/include/KDE/KFileItem
+-rw-r--r--	root/root	usr/include/KDE/KFileItemActions
 -rw-r--r--	root/root	usr/include/KDE/KFileItemDelegate
 -rw-r--r--	root/root	usr/include/KDE/KFileItemList
+-rw-r--r--	root/root	usr/include/KDE/KFileItemListProperties
 -rw-r--r--	root/root	usr/include/KDE/KFileMetaInfo
 -rw-r--r--	root/root	usr/include/KDE/KFileMetaInfoGroup
 -rw-r--r--	root/root	usr/include/KDE/KFileMetaInfoItem
 -rw-r--r--	root/root	usr/include/KDE/KFilePlacesModel
+-rw-r--r--	root/root	usr/include/KDE/KFilePlacesView
+-rw-r--r--	root/root	usr/include/KDE/KFilePreviewGenerator
 -rw-r--r--	root/root	usr/include/KDE/KFileShare
 -rw-r--r--	root/root	usr/include/KDE/KFileSharePropsPlugin
 -rw-r--r--	root/root	usr/include/KDE/KFileTreeBranch
 -rw-r--r--	root/root	usr/include/KDE/KFileTreeView
+-rw-r--r--	root/root	usr/include/KDE/KFileWidget
 -rw-r--r--	root/root	usr/include/KDE/KFilterBase
 -rw-r--r--	root/root	usr/include/KDE/KFilterDev
 -rw-r--r--	root/root	usr/include/KDE/KFilterProxySearchLine
 -rw-r--r--	root/root	usr/include/KDE/KFind
 -rw-r--r--	root/root	usr/include/KDE/KFindDialog
 -rw-r--r--	root/root	usr/include/KDE/KFloatValidator
--rw-r--r--	root/root	usr/include/KDE/KFolderType
 -rw-r--r--	root/root	usr/include/KDE/KFontAction
 -rw-r--r--	root/root	usr/include/KDE/KFontChooser
 -rw-r--r--	root/root	usr/include/KDE/KFontComboBox
@@ -385,6 +390,7 @@ drwxr-xr-x	root/root	usr/include/KDE/KHE/
 -rw-r--r--	root/root	usr/include/KDE/KIEBookmarkImporterImpl
 -rw-r--r--	root/root	usr/include/KDE/KIMProxy
 drwxr-xr-x	root/root	usr/include/KDE/KIO/
+-rw-r--r--	root/root	usr/include/KDE/KIO/AccessManager
 -rw-r--r--	root/root	usr/include/KDE/KIO/AuthInfo
 -rw-r--r--	root/root	usr/include/KDE/KIO/ChmodJob
 -rw-r--r--	root/root	usr/include/KDE/KIO/Connection
@@ -470,6 +476,7 @@ drwxr-xr-x	root/root	usr/include/KDE/KMediaPlayer/
 -rw-r--r--	root/root	usr/include/KDE/KMimeTypeResolver
 -rw-r--r--	root/root	usr/include/KDE/KMimeTypeTrader
 -rw-r--r--	root/root	usr/include/KDE/KMimeTypeValidator
+-rw-r--r--	root/root	usr/include/KDE/KModifierKeyInfo
 -rw-r--r--	root/root	usr/include/KDE/KMozillaBookmarkImporterImpl
 -rw-r--r--	root/root	usr/include/KDE/KMultiTabBar
 -rw-r--r--	root/root	usr/include/KDE/KMultiTabBarButton
@@ -729,6 +736,7 @@ drwxr-xr-x	root/root	usr/include/KDE/KUnitTest/
 -rw-r--r--	root/root	usr/include/KDE/KVBox
 drwxr-xr-x	root/root	usr/include/KDE/KWallet/
 -rw-r--r--	root/root	usr/include/KDE/KWallet/Wallet
+-rw-r--r--	root/root	usr/include/KDE/KWidgetItemDelegate
 -rw-r--r--	root/root	usr/include/KDE/KWindowInfo
 -rw-r--r--	root/root	usr/include/KDE/KWindowSystem
 -rw-r--r--	root/root	usr/include/KDE/KWordMacroExpander
@@ -786,6 +794,7 @@ drwxr-xr-x	root/root	usr/include/KDE/Plasma/
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Delegate
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Dialog
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Extender
+-rw-r--r--	root/root	usr/include/KDE/Plasma/ExtenderGroup
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ExtenderItem
 -rw-r--r--	root/root	usr/include/KDE/Plasma/FlashingLabel
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Frame
@@ -810,13 +819,16 @@ drwxr-xr-x	root/root	usr/include/KDE/Plasma/
 -rw-r--r--	root/root	usr/include/KDE/Plasma/RunnerScript
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ScriptEngine
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ScrollBar
+-rw-r--r--	root/root	usr/include/KDE/Plasma/ScrollWidget
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Service
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ServiceJob
 -rw-r--r--	root/root	usr/include/KDE/Plasma/SignalPlotter
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Slider
+-rw-r--r--	root/root	usr/include/KDE/Plasma/SpinBox
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Svg
 -rw-r--r--	root/root	usr/include/KDE/Plasma/SvgWidget
 -rw-r--r--	root/root	usr/include/KDE/Plasma/TabBar
+-rw-r--r--	root/root	usr/include/KDE/Plasma/TextBrowser
 -rw-r--r--	root/root	usr/include/KDE/Plasma/TextEdit
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Theme
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ToolButton
@@ -824,6 +836,7 @@ drwxr-xr-x	root/root	usr/include/KDE/Plasma/
 -rw-r--r--	root/root	usr/include/KDE/Plasma/ToolTipManager
 -rw-r--r--	root/root	usr/include/KDE/Plasma/TreeView
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Version
+-rw-r--r--	root/root	usr/include/KDE/Plasma/VideoWidget
 -rw-r--r--	root/root	usr/include/KDE/Plasma/View
 -rw-r--r--	root/root	usr/include/KDE/Plasma/Wallpaper
 -rw-r--r--	root/root	usr/include/KDE/Plasma/WebView
@@ -851,6 +864,12 @@ drwxr-xr-x	root/root	usr/include/KDE/Solid/
 -rw-r--r--	root/root	usr/include/KDE/Solid/StorageAccess
 -rw-r--r--	root/root	usr/include/KDE/Solid/StorageDrive
 -rw-r--r--	root/root	usr/include/KDE/Solid/StorageVolume
+drwxr-xr-x	root/root	usr/include/KDE/Sonnet/
+-rw-r--r--	root/root	usr/include/KDE/Sonnet/ConfigDialog
+-rw-r--r--	root/root	usr/include/KDE/Sonnet/ConfigWidget
+-rw-r--r--	root/root	usr/include/KDE/Sonnet/Dialog
+-rw-r--r--	root/root	usr/include/KDE/Sonnet/DictionaryComboBox
+-rw-r--r--	root/root	usr/include/KDE/Sonnet/Highlighter
 -rw-r--r--	root/root	usr/include/KDE/SshProcess
 -rw-r--r--	root/root	usr/include/KDE/StubProcess
 -rw-r--r--	root/root	usr/include/KDE/SuProcess
@@ -1060,6 +1079,7 @@ drwxr-xr-x	root/root	usr/include/dom/
 -rw-r--r--	root/root	usr/include/kde3support_export.h
 -rw-r--r--	root/root	usr/include/kde_file.h
 -rw-r--r--	root/root	usr/include/kde_terminal_interface.h
+-rw-r--r--	root/root	usr/include/kde_terminal_interface_v2.h
 -rw-r--r--	root/root	usr/include/kdebug.h
 -rw-r--r--	root/root	usr/include/kdecore_export.h
 -rw-r--r--	root/root	usr/include/kdedmodule.h
@@ -1108,7 +1128,9 @@ drwxr-xr-x	root/root	usr/include/kdesu/
 -rw-r--r--	root/root	usr/include/kfiledialog.h
 -rw-r--r--	root/root	usr/include/kfilefiltercombo.h
 -rw-r--r--	root/root	usr/include/kfileitem.h
+-rw-r--r--	root/root	usr/include/kfileitemactions.h
 -rw-r--r--	root/root	usr/include/kfileitemdelegate.h
+-rw-r--r--	root/root	usr/include/kfileitemlistproperties.h
 -rw-r--r--	root/root	usr/include/kfilemetainfo.h
 -rw-r--r--	root/root	usr/include/kfilemetainfoitem.h
 -rw-r--r--	root/root	usr/include/kfileplacesmodel.h
@@ -1169,6 +1191,7 @@ drwxr-xr-x	root/root	usr/include/khexedit/
 -rw-r--r--	root/root	usr/include/kimproxy_export.h
 -rw-r--r--	root/root	usr/include/kinputdialog.h
 drwxr-xr-x	root/root	usr/include/kio/
+-rw-r--r--	root/root	usr/include/kio/accessmanager.h
 -rw-r--r--	root/root	usr/include/kio/authinfo.h
 -rw-r--r--	root/root	usr/include/kio/chmodjob.h
 -rw-r--r--	root/root	usr/include/kio/connection.h
@@ -1204,8 +1227,10 @@ drwxr-xr-x	root/root	usr/include/kio/
 -rw-r--r--	root/root	usr/include/kio/slavebase.h
 -rw-r--r--	root/root	usr/include/kio/slaveconfig.h
 -rw-r--r--	root/root	usr/include/kio/slaveinterface.h
+-rw-r--r--	root/root	usr/include/kio/sslui.h
 -rw-r--r--	root/root	usr/include/kio/tcpslavebase.h
 -rw-r--r--	root/root	usr/include/kio/thumbcreator.h
+-rw-r--r--	root/root	usr/include/kio/thumbsequencecreator.h
 -rw-r--r--	root/root	usr/include/kio/udsentry.h
 -rw-r--r--	root/root	usr/include/kjob.h
 -rw-r--r--	root/root	usr/include/kjobtrackerinterface.h
@@ -1248,6 +1273,7 @@ drwxr-xr-x	root/root	usr/include/kmediaplayer/
 -rw-r--r--	root/root	usr/include/kmimetypechooser.h
 -rw-r--r--	root/root	usr/include/kmimetyperesolver.h
 -rw-r--r--	root/root	usr/include/kmimetypetrader.h
+-rw-r--r--	root/root	usr/include/kmodifierkeyinfo.h
 -rw-r--r--	root/root	usr/include/kmountpoint.h
 -rw-r--r--	root/root	usr/include/kmultitabbar.h
 -rw-r--r--	root/root	usr/include/knewpassworddialog.h
@@ -1408,6 +1434,7 @@ drwxr-xr-x	root/root	usr/include/ksettings/
 -rw-r--r--	root/root	usr/include/ktabbar.h
 -rw-r--r--	root/root	usr/include/ktabwidget.h
 -rw-r--r--	root/root	usr/include/ktar.h
+-rw-r--r--	root/root	usr/include/ktcpsocket.h
 -rw-r--r--	root/root	usr/include/ktempdir.h
 -rw-r--r--	root/root	usr/include/ktemporaryfile.h
 -rw-r--r--	root/root	usr/include/ktextbrowser.h
@@ -1540,6 +1567,7 @@ drwxr-xr-x	root/root	usr/include/plasma/
 -rw-r--r--	root/root	usr/include/plasma/delegate.h
 -rw-r--r--	root/root	usr/include/plasma/dialog.h
 -rw-r--r--	root/root	usr/include/plasma/extender.h
+-rw-r--r--	root/root	usr/include/plasma/extendergroup.h
 -rw-r--r--	root/root	usr/include/plasma/extenderitem.h
 -rw-r--r--	root/root	usr/include/plasma/framesvg.h
 -rw-r--r--	root/root	usr/include/plasma/glapplet.h
@@ -1553,6 +1581,7 @@ drwxr-xr-x	root/root	usr/include/plasma/
 -rw-r--r--	root/root	usr/include/plasma/querymatch.h
 -rw-r--r--	root/root	usr/include/plasma/runnercontext.h
 -rw-r--r--	root/root	usr/include/plasma/runnermanager.h
+-rw-r--r--	root/root	usr/include/plasma/runnersyntax.h
 drwxr-xr-x	root/root	usr/include/plasma/scripting/
 -rw-r--r--	root/root	usr/include/plasma/scripting/appletscript.h
 -rw-r--r--	root/root	usr/include/plasma/scripting/dataenginescript.h
@@ -1581,13 +1610,17 @@ drwxr-xr-x	root/root	usr/include/plasma/widgets/
 -rw-r--r--	root/root	usr/include/plasma/widgets/pushbutton.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/radiobutton.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/scrollbar.h
+-rw-r--r--	root/root	usr/include/plasma/widgets/scrollwidget.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/signalplotter.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/slider.h
+-rw-r--r--	root/root	usr/include/plasma/widgets/spinbox.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/svgwidget.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/tabbar.h
+-rw-r--r--	root/root	usr/include/plasma/widgets/textbrowser.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/textedit.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/toolbutton.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/treeview.h
+-rw-r--r--	root/root	usr/include/plasma/widgets/videowidget.h
 -rw-r--r--	root/root	usr/include/plasma/widgets/webview.h
 -rw-r--r--	root/root	usr/include/predicateproperties.h
 -rw-r--r--	root/root	usr/include/qtest_kde.h
@@ -1612,6 +1645,8 @@ drwxr-xr-x	root/root	usr/include/solid/
 -rw-r--r--	root/root	usr/include/solid/powermanagement.h
 -rw-r--r--	root/root	usr/include/solid/predicate.h
 -rw-r--r--	root/root	usr/include/solid/processor.h
+-rw-r--r--	root/root	usr/include/solid/serialinterface.h
+-rw-r--r--	root/root	usr/include/solid/smartcardreader.h
 -rw-r--r--	root/root	usr/include/solid/solid_export.h
 -rw-r--r--	root/root	usr/include/solid/solidnamespace.h
 -rw-r--r--	root/root	usr/include/solid/storageaccess.h
@@ -1648,8 +1683,6 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/emoticonstheme_pidgin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/emoticonstheme_xmpp.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katepart.so
--rwxr-xr-x	root/root	usr/lib/kde4/kcertpart.so
--rwxr-xr-x	root/root	usr/lib/kde4/kcm_crypto.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kded_kcookiejar.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kded_kssld.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kded_proxyscout.so
@@ -1668,7 +1701,6 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/krossmodulekdetranslation.so
 -rwxr-xr-x	root/root	usr/lib/kde4/krossqts.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kspell_aspell.so
--rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_docwordcompletion.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_insertfile.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_kdatatool.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_python-encoding.so
@@ -1706,98 +1738,98 @@ drwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_xview.so
 drwxr-xr-x	root/root	usr/lib/kde4/plugins/script/
 lrwxrwxrwx	root/root	usr/lib/kde4/plugins/script/libkrossqtsplugin.so -> libkrossqtsplugin.so.4
-lrwxrwxrwx	root/root	usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4 -> libkrossqtsplugin.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4 -> libkrossqtsplugin.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/kde4/plugins/script/libkrossqtsplugin.so.4.3.0
 -rwxr-xr-x	root/root	usr/lib/kde4/spellcheckplugin.so
 lrwxrwxrwx	root/root	usr/lib/libkde3support.so -> libkde3support.so.4
-lrwxrwxrwx	root/root	usr/lib/libkde3support.so.4 -> libkde3support.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkde3support.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkde3support.so.4 -> libkde3support.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkde3support.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkdecore.so -> libkdecore.so.5
-lrwxrwxrwx	root/root	usr/lib/libkdecore.so.5 -> libkdecore.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkdecore.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkdecore.so.5 -> libkdecore.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkdecore.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkdefakes.so -> libkdefakes.so.5
-lrwxrwxrwx	root/root	usr/lib/libkdefakes.so.5 -> libkdefakes.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkdefakes.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkdefakes.so.5 -> libkdefakes.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkdefakes.so.5.3.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kbuildsycoca4.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kconf_update.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kded4.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kio_http_cache_cleaner.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_klauncher.so
 lrwxrwxrwx	root/root	usr/lib/libkdesu.so -> libkdesu.so.5
-lrwxrwxrwx	root/root	usr/lib/libkdesu.so.5 -> libkdesu.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkdesu.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkdesu.so.5 -> libkdesu.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkdesu.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkdeui.so -> libkdeui.so.5
-lrwxrwxrwx	root/root	usr/lib/libkdeui.so.5 -> libkdeui.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkdeui.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkdeui.so.5 -> libkdeui.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkdeui.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkdnssd.so -> libkdnssd.so.4
-lrwxrwxrwx	root/root	usr/lib/libkdnssd.so.4 -> libkdnssd.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkdnssd.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkdnssd.so.4 -> libkdnssd.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkdnssd.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkfile.so -> libkfile.so.4
-lrwxrwxrwx	root/root	usr/lib/libkfile.so.4 -> libkfile.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkfile.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkfile.so.4 -> libkfile.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkfile.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkhtml.so -> libkhtml.so.5
-lrwxrwxrwx	root/root	usr/lib/libkhtml.so.5 -> libkhtml.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkhtml.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkhtml.so.5 -> libkhtml.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkhtml.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkimproxy.so -> libkimproxy.so.4
-lrwxrwxrwx	root/root	usr/lib/libkimproxy.so.4 -> libkimproxy.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkimproxy.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkimproxy.so.4 -> libkimproxy.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkimproxy.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkio.so -> libkio.so.5
-lrwxrwxrwx	root/root	usr/lib/libkio.so.5 -> libkio.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkio.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkio.so.5 -> libkio.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkio.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkjs.so -> libkjs.so.4
-lrwxrwxrwx	root/root	usr/lib/libkjs.so.4 -> libkjs.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkjs.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkjs.so.4 -> libkjs.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkjs.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkjsapi.so -> libkjsapi.so.4
-lrwxrwxrwx	root/root	usr/lib/libkjsapi.so.4 -> libkjsapi.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkjsapi.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkjsapi.so.4 -> libkjsapi.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkjsapi.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkjsembed.so -> libkjsembed.so.4
-lrwxrwxrwx	root/root	usr/lib/libkjsembed.so.4 -> libkjsembed.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkjsembed.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkjsembed.so.4 -> libkjsembed.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkjsembed.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkmediaplayer.so -> libkmediaplayer.so.4
-lrwxrwxrwx	root/root	usr/lib/libkmediaplayer.so.4 -> libkmediaplayer.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkmediaplayer.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkmediaplayer.so.4 -> libkmediaplayer.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkmediaplayer.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libknewstuff2.so -> libknewstuff2.so.4
-lrwxrwxrwx	root/root	usr/lib/libknewstuff2.so.4 -> libknewstuff2.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libknewstuff2.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libknewstuff2.so.4 -> libknewstuff2.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libknewstuff2.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libknotifyconfig.so -> libknotifyconfig.so.4
-lrwxrwxrwx	root/root	usr/lib/libknotifyconfig.so.4 -> libknotifyconfig.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libknotifyconfig.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libknotifyconfig.so.4 -> libknotifyconfig.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libknotifyconfig.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkntlm.so -> libkntlm.so.4
-lrwxrwxrwx	root/root	usr/lib/libkntlm.so.4 -> libkntlm.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkntlm.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkntlm.so.4 -> libkntlm.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkntlm.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkparts.so -> libkparts.so.4
-lrwxrwxrwx	root/root	usr/lib/libkparts.so.4 -> libkparts.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkparts.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkparts.so.4 -> libkparts.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkparts.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkpty.so -> libkpty.so.4
-lrwxrwxrwx	root/root	usr/lib/libkpty.so.4 -> libkpty.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkpty.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpty.so.4 -> libkpty.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkpty.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkrosscore.so -> libkrosscore.so.4
-lrwxrwxrwx	root/root	usr/lib/libkrosscore.so.4 -> libkrosscore.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkrosscore.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkrosscore.so.4 -> libkrosscore.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkrosscore.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkrossui.so -> libkrossui.so.4
-lrwxrwxrwx	root/root	usr/lib/libkrossui.so.4 -> libkrossui.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkrossui.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkrossui.so.4 -> libkrossui.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkrossui.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libktexteditor.so -> libktexteditor.so.4
-lrwxrwxrwx	root/root	usr/lib/libktexteditor.so.4 -> libktexteditor.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libktexteditor.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libktexteditor.so.4 -> libktexteditor.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libktexteditor.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkunittest.so -> libkunittest.so.4
-lrwxrwxrwx	root/root	usr/lib/libkunittest.so.4 -> libkunittest.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkunittest.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkunittest.so.4 -> libkunittest.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkunittest.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkutils.so -> libkutils.so.4
-lrwxrwxrwx	root/root	usr/lib/libkutils.so.4 -> libkutils.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkutils.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkutils.so.4 -> libkutils.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkutils.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libnepomuk.so -> libnepomuk.so.4
-lrwxrwxrwx	root/root	usr/lib/libnepomuk.so.4 -> libnepomuk.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libnepomuk.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libnepomuk.so.4 -> libnepomuk.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libnepomuk.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libplasma.so -> libplasma.so.3
 lrwxrwxrwx	root/root	usr/lib/libplasma.so.3 -> libplasma.so.3.0.0
 -rwxr-xr-x	root/root	usr/lib/libplasma.so.3.0.0
 lrwxrwxrwx	root/root	usr/lib/libsolid.so -> libsolid.so.4
-lrwxrwxrwx	root/root	usr/lib/libsolid.so.4 -> libsolid.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libsolid.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libsolid.so.4 -> libsolid.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libsolid.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libthreadweaver.so -> libthreadweaver.so.4
-lrwxrwxrwx	root/root	usr/lib/libthreadweaver.so.4 -> libthreadweaver.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libthreadweaver.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libthreadweaver.so.4 -> libthreadweaver.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libthreadweaver.so.4.3.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/apps/
 drwxr-xr-x	root/root	usr/share/apps/LICENSES/
@@ -1811,6 +1843,8 @@ drwxr-xr-x	root/root	usr/share/apps/LICENSES/
 drwxr-xr-x	root/root	usr/share/apps/cmake/
 drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/BasicFindPackageVersion.cmake.in
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/CheckCXXSourceCompiles.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/CheckCXXSourceRuns.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/CheckCXXSymbolExists.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/CheckPointerMember.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/CheckPrototypeExists.cmake
@@ -1845,10 +1879,12 @@ drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindGStreamer.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindGettext.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindGphoto2.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/FindIOKit.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKDE4Internal.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKDE4Workspace.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKDEWIN32.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKDEWIN_Packager.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKDEWin.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKNepomuk.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKdcraw.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindKdeMultimedia.cmake
@@ -1862,6 +1898,7 @@ drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLCMS.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibArt.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibKonq.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibLZMA.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibPython.py
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibXml2.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindLibXslt.cmake
@@ -1878,9 +1915,11 @@ drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindOpenSSL.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPCRE.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPhonon.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPkgConfig.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPlasma.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPopplerQt4.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPostgreSQL.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPulseAudio.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPyKDE4.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPyKDE4.py
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindPyQt.py
@@ -1905,7 +1944,7 @@ drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindXKB.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindXine.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/FindXmms.cmake
--rw-r--r--	root/root	usr/share/apps/cmake/modules/KDE4CTestNightlySetup.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/HandleImportedTargetsInCMakeRequiredLibraries.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/KDE4Defaults.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/KDE4Macros.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/KDELibs4LibraryTargets-release.cmake
@@ -1936,6 +1975,7 @@ drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/check_installed_exports_file.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/cmake-modules-styleguide.txt
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/config-alsa.h.cmake
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/create_exe_symlink.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/kde4_cmake_uninstall.cmake.in
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/kde4_exec_via_sh.cmake
 -rw-r--r--	root/root	usr/share/apps/cmake/modules/kde4automoc.files.in
@@ -1947,6 +1987,7 @@ drwxr-xr-x	root/root	usr/share/apps/katepart/
 -rw-r--r--	root/root	usr/share/apps/katepart/katepartui.rc
 drwxr-xr-x	root/root	usr/share/apps/katepart/script/
 -rw-r--r--	root/root	usr/share/apps/katepart/script/cstyle.js
+-rw-r--r--	root/root	usr/share/apps/katepart/script/haskell.js
 -rw-r--r--	root/root	usr/share/apps/katepart/script/jstest.js
 -rw-r--r--	root/root	usr/share/apps/katepart/script/lilypond.js
 -rw-r--r--	root/root	usr/share/apps/katepart/script/lisp.js
@@ -1967,10 +2008,12 @@ drwxr-xr-x	root/root	usr/share/apps/katepart/syntax/
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/asm6502.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/asn1.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/asp.xml
+-rw-r--r--	root/root	usr/share/apps/katepart/syntax/asterisk.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/awk.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/bash.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/bibtex.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/bmethod.xml
+-rw-r--r--	root/root	usr/share/apps/katepart/syntax/boo.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/c.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/cg.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/cgis.xml
@@ -2035,6 +2078,7 @@ drwxr-xr-x	root/root	usr/share/apps/katepart/syntax/
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/literate-haskell.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/logtalk.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/lpc.xml
+-rw-r--r--	root/root	usr/share/apps/katepart/syntax/lsl.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/lua.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/m3u.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/mab.xml
@@ -2114,8 +2158,6 @@ drwxr-xr-x	root/root	usr/share/apps/katepart/syntax/
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/yacc.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/yaml.xml
 -rw-r--r--	root/root	usr/share/apps/katepart/syntax/zonnon.xml
-drwxr-xr-x	root/root	usr/share/apps/kcertpart/
--rw-r--r--	root/root	usr/share/apps/kcertpart/kcertpart.rc
 drwxr-xr-x	root/root	usr/share/apps/kcharselect/
 -rw-r--r--	root/root	usr/share/apps/kcharselect/kcharselect-data
 drwxr-xr-x	root/root	usr/share/apps/kcm_componentchooser/
@@ -2129,6 +2171,8 @@ drwxr-xr-x	root/root	usr/share/apps/kconf_update/
 -rw-r--r--	root/root	usr/share/apps/kconf_update/ksslcertificatemanager.upd
 -rw-r--r--	root/root	usr/share/apps/kconf_update/ksslcertificatemanager.upd.sh
 -rwxr-xr-x	root/root	usr/share/apps/kconf_update/move_kio_help_cache.sh
+-rwxr-xr-x	root/root	usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.pl
+-rw-r--r--	root/root	usr/share/apps/kconf_update/plasma_popupapplet_fix_groups.upd
 -rwxr-xr-x	root/root	usr/share/apps/kconf_update/proxytype.pl
 -rwxr-xr-x	root/root	usr/share/apps/kconf_update/useragent.pl
 drwxr-xr-x	root/root	usr/share/apps/kdeui/
@@ -2141,12 +2185,11 @@ drwxr-xr-x	root/root	usr/share/apps/kdeui/about/
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/bar-top-left.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/bar-top-middle.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/bar-top-right.png
--rw-r--r--	root/root	usr/share/apps/kdeui/about/bottom-left.png
--rw-r--r--	root/root	usr/share/apps/kdeui/about/bottom-middle.png
--rw-r--r--	root/root	usr/share/apps/kdeui/about/bottom-right.png
+-rw-r--r--	root/root	usr/share/apps/kdeui/about/body-background.jpg
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-bottom-left.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-bottom-middle.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-bottom-right.png
+-rw-r--r--	root/root	usr/share/apps/kdeui/about/box-center.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-middle-left.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-middle-right.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/box-top-left.png
@@ -2155,7 +2198,6 @@ drwxr-xr-x	root/root	usr/share/apps/kdeui/about/
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/kde_infopage.css
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/kde_infopage_rtl.css
 -rw-r--r--	root/root	usr/share/apps/kdeui/about/top-middle.png
--rw-r--r--	root/root	usr/share/apps/kdeui/about/top-right.png
 drwxr-xr-x	root/root	usr/share/apps/kdeui/pics/
 -rw-r--r--	root/root	usr/share/apps/kdeui/pics/aboutkde.png
 -rw-r--r--	root/root	usr/share/apps/kdeui/pics/kdeprint_nup1.png
@@ -2221,7 +2263,6 @@ drwxr-xr-x	root/root	usr/share/apps/kjava/
 -rw-r--r--	root/root	usr/share/apps/kjava/pluginsinfo
 drwxr-xr-x	root/root	usr/share/apps/knewstuff/
 drwxr-xr-x	root/root	usr/share/apps/knewstuff/pics/
--rw-r--r--	root/root	usr/share/apps/knewstuff/pics/ghns.png
 -rw-r--r--	root/root	usr/share/apps/knewstuff/pics/ghns_star.png
 -rw-r--r--	root/root	usr/share/apps/knewstuff/pics/ghns_star_gray.png
 -rw-r--r--	root/root	usr/share/apps/knewstuff/pics/thumb_frame.png
@@ -2699,6 +2740,26 @@ drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/lt/entities/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/lt/lang.entities
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/lt/strings.entities
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/lt/user.entities
+drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/nds/
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/catalog.xml
+drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/fdl-notice.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/gpl-notice.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/help-menu.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/install-compile.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/install-intro.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/lgpl-notice.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/report-bugs.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underArtisticLicense.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underBSDLicense.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underFDL.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underGPL.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underLGPL.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/underX11License.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/entities/update-doc.docbook
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/lang.entities
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/strings.entities
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nds/user.entities
 drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/nl/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/nl/catalog.xml
 drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/nl/entities/
@@ -2777,7 +2838,6 @@ drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/underBSDLicense.docbook
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/underFDL.docbook
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/underGPL.docbook
--rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/underLGPL.docbook
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/underX11License.docbook
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/entities/update-doc.docbook
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/pl/lang.entities
@@ -3075,6 +3135,7 @@ drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/customization/xsl/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/it.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/ja.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/ko.xml
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/nds.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/nl.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/nn.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/customization/xsl/no.xml
@@ -3255,9 +3316,10 @@ drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/la.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/labels.xsl
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/lt.xml
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/nb.xml
+-rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/nds.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/nl.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/nn.xml
--rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/no.xml
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/olink.xsl
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/pi.xsl
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/common/pl.xml
@@ -3815,8 +3877,6 @@ drwxr-xr-x	root/root	usr/share/apps/ksgmltools2/docbook/xsl/params/
 -rw-r--r--	root/root	usr/share/apps/ksgmltools2/docbook/xsl/params/xref.with.number.and.title.xml
 drwxr-xr-x	root/root	usr/share/apps/kssl/
 lrwxrwxrwx	root/root	usr/share/apps/kssl/ca-bundle.crt -> /etc/ssl/certs/ca-certificates.crt
-drwxr-xr-x	root/root	usr/share/apps/ktexteditor_docwordcompletion/
--rw-r--r--	root/root	usr/share/apps/ktexteditor_docwordcompletion/docwordcompletionui.rc
 drwxr-xr-x	root/root	usr/share/apps/ktexteditor_insertfile/
 -rw-r--r--	root/root	usr/share/apps/ktexteditor_insertfile/ktexteditor_insertfileui.rc
 drwxr-xr-x	root/root	usr/share/apps/ktexteditor_kdatatool/
@@ -3853,6 +3913,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KIMIface.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KLauncher.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KMediaPlayer.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KPasswdServer.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KSpeech.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.KWallet.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.kde.Solid.Networking.Client.xml
@@ -3968,7 +4029,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/actions/presence_online.png
 drwxr-xr-x	root/root	usr/share/kde4/
 drwxr-xr-x	root/root	usr/share/kde4/services/
--rw-r--r--	root/root	usr/share/kde4/services/crypto.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/data.protocol
 -rw-r--r--	root/root	usr/share/kde4/services/emoticonstheme_adium.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/emoticonstheme_kde.desktop
@@ -3982,7 +4042,6 @@ drwxr-xr-x	root/root	usr/share/kde4/services/
 -rw-r--r--	root/root	usr/share/kde4/services/http_cache_cleaner.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/https.protocol
 -rw-r--r--	root/root	usr/share/kde4/services/katepart.desktop
--rw-r--r--	root/root	usr/share/kde4/services/kcertpart.desktop
 drwxr-xr-x	root/root	usr/share/kde4/services/kded/
 -rw-r--r--	root/root	usr/share/kde4/services/kded/kcookiejar.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kded/kssld.desktop
@@ -3994,8 +4053,6 @@ drwxr-xr-x	root/root	usr/share/kde4/services/kded/
 -rw-r--r--	root/root	usr/share/kde4/services/kmailservice.protocol
 -rw-r--r--	root/root	usr/share/kde4/services/kmultipart.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kspell_aspell.desktop
--rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_docwordcompletion.desktop
--rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_docwordcompletion_config.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_insertfile.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_kdatatool.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_python-encoding.desktop
@@ -4064,6 +4121,7 @@ drwxr-xr-x	root/root	usr/share/kde4/servicetypes/
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/ktexteditorplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/kurifilterplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/plasma-animator.desktop
+-rw-r--r--	root/root	usr/share/kde4/servicetypes/plasma-applet-popupapplet.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/plasma-applet.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/plasma-containment.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/plasma-dataengine.desktop

@@ -1,7 +1,2 @@
-e2eb9d270fe0e93901b29256bdedd7e2  fixpath.patch
-552337fd9a3982d809ea16c7f0033d42  kde-np.pam
-10a490653b002e6f9e7476ff9d37c011  kde.pam
-72f90e1a61d94a5f66c0b3ce39b7b279  kdebase-workspace-4.2.4.tar.bz2
+d4fdf45a38f521a34342303e9e4d291c  kdebase-workspace-4.2.98.tar.bz2
 5d80164932e0d44d8b802d3929a004ab  kdm
-721e97031b62aee8914e8617e86f9235  kdm-zsh-profile.patch
-367a3538f54db71f108b34cfa31088ac  kscreensaver.pam

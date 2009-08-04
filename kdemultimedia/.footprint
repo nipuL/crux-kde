@@ -5,6 +5,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kmix
 -rwxr-xr-x	root/root	usr/bin/kmixctrl
 -rwxr-xr-x	root/root	usr/bin/kscd
+-rwxr-xr-x	root/root	usr/bin/mplayerthumbsconfig
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/audiocdencoder.h
 drwxr-xr-x	root/root	usr/include/libkcddb/
@@ -28,15 +29,16 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/libaudiocd_encoder_lame.so
 -rwxr-xr-x	root/root	usr/lib/kde4/libaudiocd_encoder_vorbis.so
 -rwxr-xr-x	root/root	usr/lib/kde4/libaudiocd_encoder_wav.so
+-rwxr-xr-x	root/root	usr/lib/kde4/videopreview.so
 lrwxrwxrwx	root/root	usr/lib/libaudiocdplugins.so -> libaudiocdplugins.so.4
-lrwxrwxrwx	root/root	usr/lib/libaudiocdplugins.so.4 -> libaudiocdplugins.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libaudiocdplugins.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libaudiocdplugins.so.4 -> libaudiocdplugins.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libaudiocdplugins.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkcddb.so -> libkcddb.so.4
-lrwxrwxrwx	root/root	usr/lib/libkcddb.so.4 -> libkcddb.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkcddb.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkcddb.so.4 -> libkcddb.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkcddb.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkcompactdisc.so -> libkcompactdisc.so.4
-lrwxrwxrwx	root/root	usr/lib/libkcompactdisc.so.4 -> libkcompactdisc.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkcompactdisc.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkcompactdisc.so.4 -> libkcompactdisc.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkcompactdisc.so.4.3.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kmix.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kmixctrl.so
 drwxr-xr-x	root/root	usr/share/
@@ -51,6 +53,7 @@ drwxr-xr-x	root/root	usr/share/apps/dragonplayer/
 -rw-r--r--	root/root	usr/share/apps/dragonplayer/dragonlogo.png
 -rw-r--r--	root/root	usr/share/apps/dragonplayer/dragonplayerui.rc
 drwxr-xr-x	root/root	usr/share/apps/juk/
+-rw-r--r--	root/root	usr/share/apps/juk/juk.notifyrc
 -rw-r--r--	root/root	usr/share/apps/juk/jukui-rtl.rc
 -rw-r--r--	root/root	usr/share/apps/juk/jukui.rc
 drwxr-xr-x	root/root	usr/share/apps/juk/pics/
@@ -67,22 +70,22 @@ drwxr-xr-x	root/root	usr/share/apps/kmix/pics/
 -rw-r--r--	root/root	usr/share/apps/kmix/pics/kmixdocked.png
 -rw-r--r--	root/root	usr/share/apps/kmix/pics/kmixdocked_error.png
 -rw-r--r--	root/root	usr/share/apps/kmix/pics/kmixdocked_mute.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_ac97.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_audio.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_bass.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_cd.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_digital.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_ext.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_headphone.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_microphone.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_midi.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_recmon.png
 -rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_record.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_surround.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_treble.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_unknown.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_video.png
--rw-r--r--	root/root	usr/share/apps/kmix/pics/mix_volume.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-ac97.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-capture.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-cd.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-digital.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-front.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-headset.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-lfe.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-line.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-master.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-microphone.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-midi.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-pcm-default.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-pcm.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-surround.png
+-rw-r--r--	root/root	usr/share/apps/kmix/pics/mixer-video.png
 drwxr-xr-x	root/root	usr/share/apps/kmix/profiles/
 -rw-r--r--	root/root	usr/share/apps/kmix/profiles/ALSA.default.xml
 -rw-r--r--	root/root	usr/share/apps/kmix/profiles/OSS.default.xml
@@ -92,17 +95,20 @@ drwxr-xr-x	root/root	usr/share/apps/konqsidebartng/virtual_folders/services/
 -rw-r--r--	root/root	usr/share/apps/konqsidebartng/virtual_folders/services/audiocd.desktop
 drwxr-xr-x	root/root	usr/share/apps/kscd/
 drwxr-xr-x	root/root	usr/share/apps/kscd/skin/
--rw-r--r--	root/root	usr/share/apps/kscd/skin/BubbleGum.svg
--rw-r--r--	root/root	usr/share/apps/kscd/skin/Melon.svg
--rw-r--r--	root/root	usr/share/apps/kscd/skin/NGRemote.svg
--rw-r--r--	root/root	usr/share/apps/kscd/skin/Orange2.svg
--rw-r--r--	root/root	usr/share/apps/kscd/skin/SquaredMelon.svg
+-rw-r--r--	root/root	usr/share/apps/kscd/skin/Chrome.svg
+-rw-r--r--	root/root	usr/share/apps/kscd/skin/Obsidian-Coast.svg
+-rw-r--r--	root/root	usr/share/apps/kscd/skin/Steel.svg
 -rw-r--r--	root/root	usr/share/apps/kscd/skin/default.svg
 drwxr-xr-x	root/root	usr/share/apps/profiles/
 -rw-r--r--	root/root	usr/share/apps/profiles/kscd.profile.xml
 drwxr-xr-x	root/root	usr/share/apps/solid/
 drwxr-xr-x	root/root	usr/share/apps/solid/actions/
 -rw-r--r--	root/root	usr/share/apps/solid/actions/dragonplayer-opendvd.desktop
+-rw-r--r--	root/root	usr/share/apps/solid/actions/kscd-play-audiocd.desktop
+drwxr-xr-x	root/root	usr/share/apps/videothumbnail/
+-rw-r--r--	root/root	usr/share/apps/videothumbnail/sprocket-large.png
+-rw-r--r--	root/root	usr/share/apps/videothumbnail/sprocket-medium.png
+-rw-r--r--	root/root	usr/share/apps/videothumbnail/sprocket-small.png
 drwxr-xr-x	root/root	usr/share/autostart/
 -rw-r--r--	root/root	usr/share/autostart/kmix_autostart.desktop
 -rw-r--r--	root/root	usr/share/autostart/restore_kmix_volumes.desktop
@@ -111,6 +117,7 @@ drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/audiocd_vorbis_encoder.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/kscd.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/libkcddb.kcfg
+-rw-r--r--	root/root	usr/share/config.kcfg/mplayerthumbs.kcfg
 drwxr-xr-x	root/root	usr/share/config/
 -rw-r--r--	root/root	usr/share/config/dragonplayerrc
 drwxr-xr-x	root/root	usr/share/dbus-1/
@@ -229,7 +236,6 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/scalable/actions/
 drwxr-xr-x	root/root	usr/share/kde4/
 drwxr-xr-x	root/root	usr/share/kde4/services/
 drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
--rw-r--r--	root/root	usr/share/kde4/services/ServiceMenus/audiocd_play.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ServiceMenus/dragonplayer_play_dvd.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ServiceMenus/jukservicemenu.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/audiocd.desktop
@@ -237,3 +243,4 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/dragonplayer_part.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kmixctrl_restore.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libkcddb.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/videopreview.desktop

@@ -4,9 +4,9 @@
 # Depends on: kdebase akonadi
 
 name=kdepim
-version=4.2.4
+version=4.2.98
 release=1
-source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2 mail-duplication.patch)
+source=(http://download.kde.org/unstable/$version/src/$name-$version.tar.bz2 mail-duplication.patch)
 
 build () {
 	cd $name-$version
@@ -16,8 +16,6 @@ build () {
  
 	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
 	
-	nice make -j3
+	make
 	make DESTDIR=$PKG install
-
-	chown -R root:root $PKG
 }

@@ -1,12 +1,12 @@
 # Description: KDE base files
 # URL: http://kde.org
 # Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: kdelibs, kdepimlibs
+# Depends on: kdelibs, kdepimlibs, kdelibs-experimental
 
 name=kdebase-runtime
-version=4.2.4
+version=4.2.98
 release=1
-source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
+source=(http://download.kde.org/unstable/$version/src/$name-$version.tar.bz2)
 
 build () {
 	cd $name-$version
@@ -15,11 +15,11 @@ build () {
 	cd build
  
 	cmake 	.. 	-DCMAKE_INSTALL_PREFIX=/usr \
-			-DCMAKE_BUILD_TYPE=Release
-	nice make -j3
+	    -DCMAKE_PREFIX_PATH=/usr \
+	    -DCMAKE_BUILD_TYPE=Release
+	make
 	make DESTDIR=$PKG install
 
 	ln -sf /usr/lib/kde4/libexec/kdesu $PKG/usr/bin/
 	rm $PKG/usr/share/icons/hicolor/index.theme
-	chown -R root:root $PKG
 }

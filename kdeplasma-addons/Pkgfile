@@ -4,15 +4,15 @@
 # Depends on: kdebase
 
 name=kdeplasma-addons
-version=4.2.4
+version=4.2.98
 release=1
-source=(ftp://ftp.kde.org/pub/kde/stable/4.2.4/src/$name-$version.tar.bz2)
+source=(ftp://ftp.kde.org/pub/kde/unstable/$version/src/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
 	mkdir build
 	cd build
-	cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release
 	make
 	make DESTDIR=$PKG install
 }

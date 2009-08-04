@@ -6,7 +6,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/kdepasswd
 -rwxr-xr-x	root/root	usr/bin/kdialog
 -rwxr-xr-x	root/root	usr/bin/keditbookmarks
--rwxr-xr-x	root/root	usr/bin/keditfiletype
 -rwxr-xr-x	root/root	usr/bin/kfind
 -rwxr-xr-x	root/root	usr/bin/kfmclient
 -rwxr-xr-x	root/root	usr/bin/kinfocenter
@@ -18,6 +17,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/nspluginviewer
 drwxr-xr-x	root/root	usr/include/
 -rw-r--r--	root/root	usr/include/knewmenu.h
+-rw-r--r--	root/root	usr/include/konq_dndpopupmenuplugin.h
 -rw-r--r--	root/root	usr/include/konq_events.h
 -rw-r--r--	root/root	usr/include/konq_fileitemcapabilities.h
 -rw-r--r--	root/root	usr/include/konq_menuactions.h
@@ -31,8 +31,10 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/dolphinpart.so
--rwxr-xr-x	root/root	usr/lib/kde4/kcm_dolphin.so
--rwxr-xr-x	root/root	usr/lib/kde4/kcm_filetypes.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kcm_dolphingeneral.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kcm_dolphinnavigation.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kcm_dolphinservices.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kcm_dolphinviewmodes.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kcm_history.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kcm_info.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kcm_ioslaveinfo.so
@@ -54,7 +56,6 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/kded_konqy_preloader.so
 -rwxr-xr-x	root/root	usr/lib/kde4/khtmlkttsdplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/konq_aboutpage.so
--rwxr-xr-x	root/root	usr/lib/kde4/konq_remoteencoding.so
 -rwxr-xr-x	root/root	usr/lib/kde4/konq_shellcmdplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/konq_sidebar.so
 -rwxr-xr-x	root/root	usr/lib/kde4/konq_sidebartree_bookmarks.so
@@ -69,8 +70,8 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/libnsplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/plasma_applet_folderview.so
 lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so -> libdolphinprivate.so.4
-lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so.4 -> libdolphinprivate.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libdolphinprivate.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so.4 -> libdolphinprivate.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libdolphinprivate.so.4.3.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_keditbookmarks.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kfmclient.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kinfocenter.so
@@ -78,14 +79,15 @@ lrwxrwxrwx	root/root	usr/lib/libdolphinprivate.so.4 -> libdolphinprivate.so.4.2.
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_konsole.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kwrite.so
 lrwxrwxrwx	root/root	usr/lib/libkonq.so -> libkonq.so.5
-lrwxrwxrwx	root/root	usr/lib/libkonq.so.5 -> libkonq.so.5.2.0
--rwxr-xr-x	root/root	usr/lib/libkonq.so.5.2.0
+lrwxrwxrwx	root/root	usr/lib/libkonq.so.5 -> libkonq.so.5.3.0
+-rwxr-xr-x	root/root	usr/lib/libkonq.so.5.3.0
 lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so -> libkonqsidebarplugin.so.4
-lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.4 -> libkonqsidebarplugin.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkonqsidebarplugin.so.4 -> libkonqsidebarplugin.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkonqsidebarplugin.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so -> libkonquerorprivate.so.4
-lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.4 -> libkonquerorprivate.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkonquerorprivate.so.4 -> libkonquerorprivate.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkonquerorprivate.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkonsoleprivate.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 drwxr-xr-x	root/root	usr/share/applications/kde4/
@@ -109,8 +111,6 @@ drwxr-xr-x	root/root	usr/share/apps/dolphin/
 drwxr-xr-x	root/root	usr/share/apps/dolphinpart/
 -rw-r--r--	root/root	usr/share/apps/dolphinpart/dolphinpart.rc
 drwxr-xr-x	root/root	usr/share/apps/dolphinpart/kpartplugins/
--rw-r--r--	root/root	usr/share/apps/dolphinpart/kpartplugins/kremoteencodingplugin.desktop
--rw-r--r--	root/root	usr/share/apps/dolphinpart/kpartplugins/kremoteencodingplugin.rc
 -rw-r--r--	root/root	usr/share/apps/dolphinpart/kpartplugins/kshellcmdplugin.desktop
 -rw-r--r--	root/root	usr/share/apps/dolphinpart/kpartplugins/kshellcmdplugin.rc
 drwxr-xr-x	root/root	usr/share/apps/kappfinder/
@@ -650,42 +650,30 @@ lrwxrwxrwx	root/root	usr/share/doc/HTML/en/kwrite/common -> /usr/share/doc/HTML/
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/128x128/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/128x128/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/128x128/apps/konqueror.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/16x16/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/kfind.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/16x16/apps/konqueror.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/22x22/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/kfind.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/22x22/apps/konqueror.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/kfind.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/apps/konqueror.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/kfind.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/konqueror.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/
-drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/actions/
--rw-r--r--	root/root	usr/share/icons/hicolor/64x64/actions/preview.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/64x64/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kappfinder.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/64x64/apps/kfind.png
@@ -918,7 +906,6 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/dolphinpart.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ebrowsing.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/filebehavior.desktop
--rw-r--r--	root/root	usr/share/kde4/services/filetypes.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/interrupts.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ioports.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ioslaveinfo.desktop
@@ -926,7 +913,10 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/kcm_partition.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kcm_pci.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kcm_useraccount.desktop
--rw-r--r--	root/root	usr/share/kde4/services/kcmdolphin.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kcmdolphingeneral.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kcmdolphinnavigation.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kcmdolphinservices.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kcmdolphinviewmodes.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kcmhistory.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kcmkonqyperformance.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kcmperformance.desktop
@@ -958,18 +948,18 @@ drwxr-xr-x	root/root	usr/share/kde4/services/kded/
 -rw-r--r--	root/root	usr/share/kde4/services/sound.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragent.desktop
 drwxr-xr-x	root/root	usr/share/kde4/services/useragentstrings/
--rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/firefox15oncurrent.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/android10.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/chrome10onwinnt51.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/firefox20oncurrent.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/firefox30oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/googlebot.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie401onwinnt4.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie50onppc.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie55onwinnt5.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie60oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie60onwinnt51.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/ie70onwinnt51.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/lynxoncurrent.desktop
--rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/mozoncurrent.desktop
--rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/mozoncurrent12.desktop
--rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/mozonwinxp.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/nn301oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/nn475oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/nn475onwin95.desktop
@@ -978,14 +968,17 @@ drwxr-xr-x	root/root	usr/share/kde4/services/useragentstrings/
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/op403onwinnt4.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/op85oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/op90oncurrent.desktop
--rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/safari12.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/op962oncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/safari20.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/safari30oniphone.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/safari32.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/w3moncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/useragentstrings/wgetoncurrent.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/xserver.desktop
 drwxr-xr-x	root/root	usr/share/kde4/servicetypes/
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/findpart.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/konqaboutpage.desktop
+-rw-r--r--	root/root	usr/share/kde4/servicetypes/konqdndpopupmenuplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/konqpopupmenuplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/terminalemulator.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/uasprovider.desktop

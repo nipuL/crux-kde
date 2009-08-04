@@ -6,7 +6,7 @@
 name=automoc4 
 version=0.9.88
 release=1 
-source=(ftp://ftp.archlinux.org/other/automoc4/automoc4-$version.tar.bz2) 
+source=(http://download.kde.org/stable/$name/$version/$name-$version.tar.bz2) 
 
 build() { 
 	 cd $name-$version 

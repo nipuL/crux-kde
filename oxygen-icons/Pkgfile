@@ -1,22 +1,20 @@
-# Description: KDE utils
+# Description: Oxygen icon theme
 # URL: http://kde.org
-# Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: kdebase
+# Maintainer: Lucas Hazel, lucas at die dot net dot au
 
-name=kdeutils
+name=oxygen-icons
 version=4.2.98
 release=1
 source=(http://download.kde.org/unstable/$version/src/$name-$version.tar.bz2)
 
 build () {
 	cd $name-$version
-
+	
 	mkdir build
 	cd build
- 
-	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr \
-		   -DCMAKE_BUILD_TYPE=Release 
-	
-	make -j1
+
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+		 -DCMAKE_BUILD_TYPE=Release
+	make
 	make DESTDIR=$PKG install
 }

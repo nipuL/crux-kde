@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/include/Soprano/Error/
 -rw-r--r--	root/root	usr/include/Soprano/Error/ParserError
 -rw-r--r--	root/root	usr/include/Soprano/FilterModel
 -rw-r--r--	root/root	usr/include/Soprano/Global
+-rw-r--r--	root/root	usr/include/Soprano/Graph
 drwxr-xr-x	root/root	usr/include/Soprano/Index/
 -rw-r--r--	root/root	usr/include/Soprano/Index/CLuceneIndex
 -rw-r--r--	root/root	usr/include/Soprano/Index/IndexFilterModel
@@ -42,8 +43,10 @@ drwxr-xr-x	root/root	usr/include/Soprano/Inference/
 -rw-r--r--	root/root	usr/include/Soprano/Inference/StatementPattern
 -rw-r--r--	root/root	usr/include/Soprano/Iterator
 -rw-r--r--	root/root	usr/include/Soprano/IteratorBackend
+-rw-r--r--	root/root	usr/include/Soprano/LanguageTag
 -rw-r--r--	root/root	usr/include/Soprano/LiteralValue
 -rw-r--r--	root/root	usr/include/Soprano/Model
+-rw-r--r--	root/root	usr/include/Soprano/NRLModel
 -rw-r--r--	root/root	usr/include/Soprano/Node
 -rw-r--r--	root/root	usr/include/Soprano/NodeIterator
 -rw-r--r--	root/root	usr/include/Soprano/Parser
@@ -100,6 +103,7 @@ drwxr-xr-x	root/root	usr/include/soprano/
 -rw-r--r--	root/root	usr/include/soprano/error.h
 -rw-r--r--	root/root	usr/include/soprano/filtermodel.h
 -rw-r--r--	root/root	usr/include/soprano/global.h
+-rw-r--r--	root/root	usr/include/soprano/graph.h
 -rw-r--r--	root/root	usr/include/soprano/indexfiltermodel.h
 -rw-r--r--	root/root	usr/include/soprano/indexqueryhit.h
 -rw-r--r--	root/root	usr/include/soprano/inferencemodel.h
@@ -108,6 +112,7 @@ drwxr-xr-x	root/root	usr/include/soprano/
 -rw-r--r--	root/root	usr/include/soprano/inferenceruleset.h
 -rw-r--r--	root/root	usr/include/soprano/iterator.h
 -rw-r--r--	root/root	usr/include/soprano/iteratorbackend.h
+-rw-r--r--	root/root	usr/include/soprano/languagetag.h
 -rw-r--r--	root/root	usr/include/soprano/literalvalue.h
 -rw-r--r--	root/root	usr/include/soprano/localsocketclient.h
 -rw-r--r--	root/root	usr/include/soprano/locator.h
@@ -118,6 +123,7 @@ drwxr-xr-x	root/root	usr/include/soprano/
 -rw-r--r--	root/root	usr/include/soprano/nodeiterator.h
 -rw-r--r--	root/root	usr/include/soprano/nodepattern.h
 -rw-r--r--	root/root	usr/include/soprano/nrl.h
+-rw-r--r--	root/root	usr/include/soprano/nrlmodel.h
 -rw-r--r--	root/root	usr/include/soprano/owl.h
 -rw-r--r--	root/root	usr/include/soprano/parser.h
 -rw-r--r--	root/root	usr/include/soprano/plugin.h
@@ -136,6 +142,7 @@ drwxr-xr-x	root/root	usr/include/soprano/
 -rw-r--r--	root/root	usr/include/soprano/simplestatementiterator.h
 -rw-r--r--	root/root	usr/include/soprano/soprano.h
 -rw-r--r--	root/root	usr/include/soprano/soprano_export.h
+-rw-r--r--	root/root	usr/include/soprano/sopranomacros.h
 -rw-r--r--	root/root	usr/include/soprano/sopranotypes.h
 -rw-r--r--	root/root	usr/include/soprano/sparqlmodel.h
 -rw-r--r--	root/root	usr/include/soprano/statement.h
@@ -149,14 +156,14 @@ drwxr-xr-x	root/root	usr/include/soprano/
 -rw-r--r--	root/root	usr/include/soprano/xsd.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libsoprano.so -> libsoprano.so.4
-lrwxrwxrwx	root/root	usr/lib/libsoprano.so.4 -> libsoprano.so.4.1.0
--rwxr-xr-x	root/root	usr/lib/libsoprano.so.4.1.0
+lrwxrwxrwx	root/root	usr/lib/libsoprano.so.4 -> libsoprano.so.4.2.0
+-rwxr-xr-x	root/root	usr/lib/libsoprano.so.4.2.0
 lrwxrwxrwx	root/root	usr/lib/libsopranoclient.so -> libsopranoclient.so.1
-lrwxrwxrwx	root/root	usr/lib/libsopranoclient.so.1 -> libsopranoclient.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libsopranoclient.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsopranoclient.so.1 -> libsopranoclient.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libsopranoclient.so.1.1.0
 lrwxrwxrwx	root/root	usr/lib/libsopranoindex.so -> libsopranoindex.so.1
-lrwxrwxrwx	root/root	usr/lib/libsopranoindex.so.1 -> libsopranoindex.so.1.0.0
--rwxr-xr-x	root/root	usr/lib/libsopranoindex.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsopranoindex.so.1 -> libsopranoindex.so.1.1.0
+-rwxr-xr-x	root/root	usr/lib/libsopranoindex.so.1.1.0
 lrwxrwxrwx	root/root	usr/lib/libsopranoserver.so -> libsopranoserver.so.1
 lrwxrwxrwx	root/root	usr/lib/libsopranoserver.so.1 -> libsopranoserver.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libsopranoserver.so.1.0.0
@@ -166,8 +173,14 @@ drwxr-xr-x	root/root	usr/lib/soprano/
 -rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_nquadparser.so
 -rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_nquadserializer.so
 -rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_raptorparser.so
+-rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_raptorserializer.so
+-rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_redlandbackend.so
 -rwxr-xr-x	root/root	usr/lib/soprano/libsoprano_sesame2backend.so
 drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/apps/
+drwxr-xr-x	root/root	usr/share/apps/cmake/
+drwxr-xr-x	root/root	usr/share/apps/cmake/modules/
+-rw-r--r--	root/root	usr/share/apps/cmake/modules/SopranoAddOntology.cmake
 drwxr-xr-x	root/root	usr/share/dbus-1/
 drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.soprano.Model.xml
@@ -180,12 +193,14 @@ drwxr-xr-x	root/root	usr/share/soprano/plugins/
 -rw-r--r--	root/root	usr/share/soprano/plugins/nquadparser.desktop
 -rw-r--r--	root/root	usr/share/soprano/plugins/nquadserializer.desktop
 -rw-r--r--	root/root	usr/share/soprano/plugins/raptorparser.desktop
+-rw-r--r--	root/root	usr/share/soprano/plugins/raptorserializer.desktop
+-rw-r--r--	root/root	usr/share/soprano/plugins/redlandbackend.desktop
 -rw-r--r--	root/root	usr/share/soprano/plugins/sesame2backend.desktop
 drwxr-xr-x	root/root	usr/share/soprano/rules/
 -rw-r--r--	root/root	usr/share/soprano/rules/nrl.rules
 -rw-r--r--	root/root	usr/share/soprano/rules/rdfs.rules
 drwxr-xr-x	root/root	usr/share/soprano/sesame2/
 -rw-r--r--	root/root	usr/share/soprano/sesame2/SopranoSesame2Wrapper.class
--rw-r--r--	root/root	usr/share/soprano/sesame2/openrdf-sesame-2.1.4-onejar.jar
+-rw-r--r--	root/root	usr/share/soprano/sesame2/openrdf-sesame-2.2.4-onejar.jar
 -rw-r--r--	root/root	usr/share/soprano/sesame2/slf4j-api-1.5.5.jar
 -rw-r--r--	root/root	usr/share/soprano/sesame2/slf4j-simple-1.5.5.jar

@@ -10,7 +10,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/create_makefiles
 -rwxr-xr-x	root/root	usr/bin/create_svnignore
 -rwxr-xr-x	root/root	usr/bin/cvs-clean
--rwxr-xr-x	root/root	usr/bin/cvs2dist
 -rwxr-xr-x	root/root	usr/bin/cvsaddcurrentdir
 -rwxr-xr-x	root/root	usr/bin/cvsaskpass
 -rwxr-xr-x	root/root	usr/bin/cvsbackport
@@ -68,10 +67,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/qtdoc
 -rwxr-xr-x	root/root	usr/bin/split2po
 -rwxr-xr-x	root/root	usr/bin/svn-clean
--rwxr-xr-x	root/root	usr/bin/svn2dist
 -rwxr-xr-x	root/root	usr/bin/svnbackport
 -rwxr-xr-x	root/root	usr/bin/svnchangesince
--rwxr-xr-x	root/root	usr/bin/svnforwardport
 -rwxr-xr-x	root/root	usr/bin/svngettags
 -rwxr-xr-x	root/root	usr/bin/svnintegrate
 -rwxr-xr-x	root/root	usr/bin/svnlastchange
@@ -92,12 +89,15 @@ drwxr-xr-x	root/root	usr/include/kate/
 -rw-r--r--	root/root	usr/include/kate/pluginconfigpageinterface.h
 -rw-r--r--	root/root	usr/include/kate/pluginmanager.h
 -rw-r--r--	root/root	usr/include/kate_export.h
+drwxr-xr-x	root/root	usr/include/kompare/
+-rw-r--r--	root/root	usr/include/kompare/kompareinterface.h
 -rw-r--r--	root/root	usr/include/kprofilemethod.h
 -rw-r--r--	root/root	usr/include/ktrace.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/cervisiapart.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kabcformat_kdeaccounts.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kate_kttsd.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katebacktracebrowserplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katebuildplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katectagsplugin.so
@@ -108,11 +108,13 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/katekonsoleplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katemailfilesplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kateopenheaderplugin.so
+-rwxr-xr-x	root/root	usr/lib/kde4/katepybrowseplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katequickdocumentswitcherplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katesnippetsplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katesymbolviewerplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katetabbarextensionplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/katetextfilterplugin.so
+-rwxr-xr-x	root/root	usr/lib/kde4/katexmlcheckplugin.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kcal_bugzilla.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kded_ksvnd.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kio_perldoc.so
@@ -123,30 +125,30 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/plasma_applet_katesession.so
 -rwxr-xr-x	root/root	usr/lib/kde4/quithumbnail.so
 lrwxrwxrwx	root/root	usr/lib/libantlr.so -> libantlr.so.4
-lrwxrwxrwx	root/root	usr/lib/libantlr.so.4 -> libantlr.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libantlr.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libantlr.so.4 -> libantlr.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libantlr.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkateinterfaces.so -> libkateinterfaces.so.4
-lrwxrwxrwx	root/root	usr/lib/libkateinterfaces.so.4 -> libkateinterfaces.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkateinterfaces.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkateinterfaces.so.4 -> libkateinterfaces.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkateinterfaces.so.4.3.0
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_cervisia.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_cvsaskpass.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_cvsservice.so
 -rwxr-xr-x	root/root	usr/lib/libkdeinit4_kate.so
 lrwxrwxrwx	root/root	usr/lib/libkomparedialogpages.so -> libkomparedialogpages.so.4
-lrwxrwxrwx	root/root	usr/lib/libkomparedialogpages.so.4 -> libkomparedialogpages.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkomparedialogpages.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkomparedialogpages.so.4 -> libkomparedialogpages.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkomparedialogpages.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so -> libkomparediff2.so.4
-lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so.4 -> libkomparediff2.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkomparediff2.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkomparediff2.so.4 -> libkomparediff2.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkomparediff2.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkompareinterface.so -> libkompareinterface.so.4
-lrwxrwxrwx	root/root	usr/lib/libkompareinterface.so.4 -> libkompareinterface.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkompareinterface.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkompareinterface.so.4 -> libkompareinterface.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkompareinterface.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkstartperf.so -> libkstartperf.so.4
-lrwxrwxrwx	root/root	usr/lib/libkstartperf.so.4 -> libkstartperf.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkstartperf.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkstartperf.so.4 -> libkstartperf.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkstartperf.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libktrace.so -> libktrace.so.4
-lrwxrwxrwx	root/root	usr/lib/libktrace.so.4 -> libktrace.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libktrace.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libktrace.so.4 -> libktrace.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libktrace.so.4.3.0
 drwxr-xr-x	root/root	usr/lib/strigi/
 -rwxr-xr-x	root/root	usr/lib/strigi/strigila_diff.so
 -rwxr-xr-x	root/root	usr/lib/strigi/strigila_po.so
@@ -189,6 +191,8 @@ drwxr-xr-x	root/root	usr/share/apps/kate/icons/oxygen/16x16/actions/
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/findinfiles/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/findinfiles/ui.rc
+drwxr-xr-x	root/root	usr/share/apps/kate/plugins/kate_kttsd/
+-rw-r--r--	root/root	usr/share/apps/kate/plugins/kate_kttsd/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katebuild/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/katebuild/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katectags/
@@ -211,6 +215,8 @@ drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katemailfiles/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/katemailfiles/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/kateopenheader/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/kateopenheader/ui.rc
+drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katepybrowse/
+-rw-r--r--	root/root	usr/share/apps/kate/plugins/katepybrowse/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katequickdocumentswitcher/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/katequickdocumentswitcher/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katesnippets/
@@ -221,6 +227,8 @@ drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katetabbarextension/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/katetabbarextension/ui.rc
 drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katetextfilter/
 -rw-r--r--	root/root	usr/share/apps/kate/plugins/katetextfilter/ui.rc
+drwxr-xr-x	root/root	usr/share/apps/kate/plugins/katexmlcheck/
+-rw-r--r--	root/root	usr/share/apps/kate/plugins/katexmlcheck/ui.rc
 -rw-r--r--	root/root	usr/share/apps/kate/tips
 drwxr-xr-x	root/root	usr/share/apps/katepart/
 drwxr-xr-x	root/root	usr/share/apps/katepart/syntax/
@@ -258,6 +266,7 @@ drwxr-xr-x	root/root	usr/share/apps/kconf_update/
 drwxr-xr-x	root/root	usr/share/apps/kdevappwizard/
 drwxr-xr-x	root/root	usr/share/apps/kdevappwizard/template_previews/
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/akonadi-resources.png
+-rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/akonadi-serializer.png
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/default.png
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/kapp4.png
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/kderubyapp.png
@@ -269,6 +278,7 @@ drwxr-xr-x	root/root	usr/share/apps/kdevappwizard/template_previews/
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/template_previews/runner.png
 drwxr-xr-x	root/root	usr/share/apps/kdevappwizard/templates/
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/akonadiresource.tar.bz2
+-rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/akonadiserializer.tar.bz2
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/kapp4.tar.bz2
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/kderubyapp.tar.bz2
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/kpartapp.tar.bz2
@@ -278,7 +288,6 @@ drwxr-xr-x	root/root	usr/share/apps/kdevappwizard/templates/
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/qmake_qt4guiapp.tar.bz2
 -rw-r--r--	root/root	usr/share/apps/kdevappwizard/templates/runner.tar.bz2
 drwxr-xr-x	root/root	usr/share/apps/kio_perldoc/
--rw-r--r--	root/root	usr/share/apps/kio_perldoc/kio_perldoc.css
 -rwxr-xr-x	root/root	usr/share/apps/kio_perldoc/pod2html.pl
 drwxr-xr-x	root/root	usr/share/apps/kmtrace/
 -rw-r--r--	root/root	usr/share/apps/kmtrace/kde.excludes
@@ -293,13 +302,24 @@ drwxr-xr-x	root/root	usr/share/apps/kuiviewerpart/
 -rw-r--r--	root/root	usr/share/apps/kuiviewerpart/kuiviewer_part.rc
 drwxr-xr-x	root/root	usr/share/apps/lokalize/
 -rw-r--r--	root/root	usr/share/apps/lokalize/editorui.rc
--rw-r--r--	root/root	usr/share/apps/lokalize/find-gui-text.sh
 -rw-r--r--	root/root	usr/share/apps/lokalize/lokalizemainwindowui.rc
 -rw-r--r--	root/root	usr/share/apps/lokalize/projectmanagerui.rc
 drwxr-xr-x	root/root	usr/share/apps/lokalize/scripts/
--rw-r--r--	root/root	usr/share/apps/lokalize/scripts/widget-text-capture.py
--rw-r--r--	root/root	usr/share/apps/lokalize/scripts/widget-text-capture.rc
--rw-r--r--	root/root	usr/share/apps/lokalize/scripts/widget-text-capture.ui
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/find-gui-text.sh
+drwxr-xr-x	root/root	usr/share/apps/lokalize/scripts/kde/
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/kde/widget-text-capture.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/kde/widget-text-capture.rc
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/kde/widget-text-capture.ui
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/msgmerge.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/msgmerge.rc
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/newprojectwizard.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/newprojectwizard.rc
+drwxr-xr-x	root/root	usr/share/apps/lokalize/scripts/odf/
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/odf/xliff2odf-standalone.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/odf/xliff2odf.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/odf/xliff2odf.rc
+-rw-r--r--	root/root	usr/share/apps/lokalize/scripts/odf/xliffmerge.py
+-rw-r--r--	root/root	usr/share/apps/lokalize/scriptsui.rc
 -rw-r--r--	root/root	usr/share/apps/lokalize/translationmemoryrui.rc
 drwxr-xr-x	root/root	usr/share/apps/umbrello/
 -rw-r--r--	root/root	usr/share/apps/umbrello/common.ent
@@ -681,7 +701,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/22x22/apps/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/approved.png
--rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/autodiff.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/catalogmanager.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/diff.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/32x32/actions/insert_arg.png
@@ -739,7 +758,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/scalable/apps/
 drwxr-xr-x	root/root	usr/share/icons/locolor/
 drwxr-xr-x	root/root	usr/share/icons/locolor/16x16/
 drwxr-xr-x	root/root	usr/share/icons/locolor/16x16/actions/
--rw-r--r--	root/root	usr/share/icons/locolor/16x16/actions/autodiff.png
 -rw-r--r--	root/root	usr/share/icons/locolor/16x16/actions/catalogmanager.png
 -rw-r--r--	root/root	usr/share/icons/locolor/16x16/actions/diff.png
 -rw-r--r--	root/root	usr/share/icons/locolor/16x16/actions/insert_arg.png
@@ -757,7 +775,6 @@ drwxr-xr-x	root/root	usr/share/icons/locolor/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/locolor/16x16/actions/transsearch.png
 drwxr-xr-x	root/root	usr/share/icons/locolor/32x32/
 drwxr-xr-x	root/root	usr/share/icons/locolor/32x32/actions/
--rw-r--r--	root/root	usr/share/icons/locolor/32x32/actions/autodiff.png
 -rw-r--r--	root/root	usr/share/icons/locolor/32x32/actions/catalogmanager.png
 -rw-r--r--	root/root	usr/share/icons/locolor/32x32/actions/diff.png
 -rw-r--r--	root/root	usr/share/icons/locolor/32x32/actions/insert_arg.png
@@ -885,6 +902,7 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/cervisiapart.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/cvsservice.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/designerthumbnail.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kate_kttsd.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katebacktracebrowserplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katebuildplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katectagsplugin.desktop
@@ -895,11 +913,13 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/katekonsoleplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katemailfilesplugin.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kateopenheader.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/katepybrowse.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katequickdocumentswitcher.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katesnippets.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katesymbolviewer.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katetabbarextension.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/katetextfilter.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/katexmlcheck.desktop
 drwxr-xr-x	root/root	usr/share/kde4/services/kded/
 -rw-r--r--	root/root	usr/share/kde4/services/kded/ksvnd.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/komparenavtreepart.desktop

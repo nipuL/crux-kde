@@ -4,7 +4,7 @@
 # Depends on: cmake, redland
 
 name=soprano
-version=2.2.4
+version=2.3.0
 release=1
 source=(http://dl.sourceforge.net/sourceforge/soprano/soprano-$version.tar.bz2)
 
@@ -17,6 +17,4 @@ build () {
 	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
-
-	chown -R root:root $PKG
 }

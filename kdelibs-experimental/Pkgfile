@@ -1,0 +1,22 @@
+# Description: KDE base libs
+# URL: http://kde.org
+# Maintainer: Hannes Mayer, kontakt at ecarux dot de
+# Depends on: automoc4 phonon
+
+name=kdelibs-experimental
+version=4.2.98
+release=1
+source=(http://download.kde.org/unstable/$version/src/kdelibs-experimental-$version.tar.bz2)
+
+build () {
+	cd $name-$version
+	
+	mkdir build
+	cd build
+
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+		 -DCMAKE_BUILD_TYPE=Release
+
+	make
+	make DESTDIR=$PKG install
+}

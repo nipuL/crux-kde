@@ -73,47 +73,50 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/kcm_kgamma.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kio_kamera.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ksaneplugin.so
+-rwxr-xr-x	root/root	usr/lib/kde4/mobithumbnail.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_comicbook.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_djvu.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_dvi.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_fax.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_fb.so
--rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_ghostview.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_kimgio.so
+-rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_mobi.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_ooo.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_plucker.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_poppler.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_tiff.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularGenerator_xps.so
 -rwxr-xr-x	root/root	usr/lib/kde4/okularpart.so
+-rwxr-xr-x	root/root	usr/lib/kde4/rawthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/kde4/svgpart.so
 lrwxrwxrwx	root/root	usr/lib/libgwenviewlib.so -> libgwenviewlib.so.4
-lrwxrwxrwx	root/root	usr/lib/libgwenviewlib.so.4 -> libgwenviewlib.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libgwenviewlib.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libgwenviewlib.so.4 -> libgwenviewlib.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libgwenviewlib.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkdcraw.so -> libkdcraw.so.7
-lrwxrwxrwx	root/root	usr/lib/libkdcraw.so.7 -> libkdcraw.so.7.0.0
--rwxr-xr-x	root/root	usr/lib/libkdcraw.so.7.0.0
+lrwxrwxrwx	root/root	usr/lib/libkdcraw.so.7 -> libkdcraw.so.7.1.0
+-rwxr-xr-x	root/root	usr/lib/libkdcraw.so.7.1.0
 lrwxrwxrwx	root/root	usr/lib/libkexiv2.so -> libkexiv2.so.7
-lrwxrwxrwx	root/root	usr/lib/libkexiv2.so.7 -> libkexiv2.so.7.2.0
--rwxr-xr-x	root/root	usr/lib/libkexiv2.so.7.2.0
+lrwxrwxrwx	root/root	usr/lib/libkexiv2.so.7 -> libkexiv2.so.7.3.0
+-rwxr-xr-x	root/root	usr/lib/libkexiv2.so.7.3.0
 lrwxrwxrwx	root/root	usr/lib/libkipi.so -> libkipi.so.6
-lrwxrwxrwx	root/root	usr/lib/libkipi.so.6 -> libkipi.so.6.0.0
--rwxr-xr-x	root/root	usr/lib/libkipi.so.6.0.0
+lrwxrwxrwx	root/root	usr/lib/libkipi.so.6 -> libkipi.so.6.1.0
+-rwxr-xr-x	root/root	usr/lib/libkipi.so.6.1.0
 lrwxrwxrwx	root/root	usr/lib/libkolourpaint_lgpl.so -> libkolourpaint_lgpl.so.4
-lrwxrwxrwx	root/root	usr/lib/libkolourpaint_lgpl.so.4 -> libkolourpaint_lgpl.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkolourpaint_lgpl.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkolourpaint_lgpl.so.4 -> libkolourpaint_lgpl.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkolourpaint_lgpl.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libksane.so -> libksane.so.0
-lrwxrwxrwx	root/root	usr/lib/libksane.so.0 -> libksane.so.0.1.2
--rwxr-xr-x	root/root	usr/lib/libksane.so.0.1.2
+lrwxrwxrwx	root/root	usr/lib/libksane.so.0 -> libksane.so.0.2.0
+-rwxr-xr-x	root/root	usr/lib/libksane.so.0.2.0
 lrwxrwxrwx	root/root	usr/lib/libokularcore.so -> libokularcore.so.1
-lrwxrwxrwx	root/root	usr/lib/libokularcore.so.1 -> libokularcore.so.1.2.0
--rwxr-xr-x	root/root	usr/lib/libokularcore.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libokularcore.so.1 -> libokularcore.so.1.3.0
+-rwxr-xr-x	root/root	usr/lib/libokularcore.so.1.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libkdcraw.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libkexiv2.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libkipi.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libksane.pc
 drwxr-xr-x	root/root	usr/lib/strigi/
+-rwxr-xr-x	root/root	usr/lib/strigi/strigila_mobi.so
 -rwxr-xr-x	root/root	usr/lib/strigi/strigita_dvi.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
@@ -129,8 +132,8 @@ drwxr-xr-x	root/root	usr/share/applications/kde4/
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_dvi.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_fax.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_fb.desktop
--rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_ghostview.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_kimgio.desktop
+-rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_mobi.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_ooo.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_pdf.desktop
 -rw-r--r--	root/root	usr/share/applications/kde4/okularApplication_plucker.desktop
@@ -302,14 +305,6 @@ drwxr-xr-x	root/root	usr/share/apps/libkdcraw/profiles/
 -rw-r--r--	root/root	usr/share/apps/libkdcraw/profiles/srgb.icm
 -rw-r--r--	root/root	usr/share/apps/libkdcraw/profiles/widegamut.icm
 drwxr-xr-x	root/root	usr/share/apps/okular/
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/hicolor/
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/hicolor/16x16/
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/hicolor/16x16/apps/
--rw-r--r--	root/root	usr/share/apps/okular/icons/hicolor/16x16/apps/okular-gv.png
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/hicolor/32x32/
-drwxr-xr-x	root/root	usr/share/apps/okular/icons/hicolor/32x32/apps/
--rw-r--r--	root/root	usr/share/apps/okular/icons/hicolor/32x32/apps/okular-gv.png
 -rw-r--r--	root/root	usr/share/apps/okular/part.rc
 drwxr-xr-x	root/root	usr/share/apps/okular/pics/
 -rw-r--r--	root/root	usr/share/apps/okular/pics/checkmark.png
@@ -346,7 +341,6 @@ drwxr-xr-x	root/root	usr/share/apps/okular/pics/
 drwxr-xr-x	root/root	usr/share/apps/svgpart/
 -rw-r--r--	root/root	usr/share/apps/svgpart/svgpart.rc
 drwxr-xr-x	root/root	usr/share/config.kcfg/
--rw-r--r--	root/root	usr/share/config.kcfg/gssettings.kcfg
 -rw-r--r--	root/root	usr/share/config.kcfg/okular.kcfg
 drwxr-xr-x	root/root	usr/share/config/
 -rw-r--r--	root/root	usr/share/config/okular.knsrc
@@ -526,26 +520,28 @@ drwxr-xr-x	root/root	usr/share/kde4/services/ServiceMenus/
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_dvi.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_fax.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_fb.desktop
--rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_ghostview.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_kimgio.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_mobi.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_ooo.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_plucker.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_poppler.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_tiff.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/libokularGenerator_xps.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/mobithumbnail.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularComicbook.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularDjvu.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularDvi.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularFax.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularFb.desktop
--rw-r--r--	root/root	usr/share/kde4/services/okularGhostview.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularKimgio.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/okularMobi.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularOoo.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularPlucker.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularPoppler.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularTiff.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okularXps.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/okular_part.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/rawthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/svgpart.desktop
 drwxr-xr-x	root/root	usr/share/kde4/servicetypes/
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/kipiplugin.desktop

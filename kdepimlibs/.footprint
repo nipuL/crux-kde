@@ -1,5 +1,232 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/KDE/
+drwxr-xr-x	root/root	usr/include/KDE/Akonadi/
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentBase
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentFilterProxyModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentInstance
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentInstanceCreateJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentInstanceModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentInstanceWidget
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentManager
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentType
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentTypeDialog
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentTypeModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AgentTypeWidget
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Attribute
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/AttributeFactory
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CachePolicy
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ChangeRecorder
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Collection
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionCopyJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionCreateJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionDeleteJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionDialog
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionFetchJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionFilterProxyModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionModifyJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionPropertiesDialog
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionPropertiesPage
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionRequester
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionStatistics
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionStatisticsDelegate
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionStatisticsJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionStatisticsModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/CollectionView
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Control
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Entity
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/EntityDisplayAttribute
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Exception
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Item
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemCopyJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemCreateJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemDeleteJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemFetchJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemFetchScope
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemModel
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemModifyJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemMonitor
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemMoveJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemSerializerPlugin
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemSync
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ItemView
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Job
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/LinkJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Monitor
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ResourceBase
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/SearchCreateJob
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/ServerManager
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/Session
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/StandardActionManager
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/TransactionJobs
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/TransactionSequence
+-rw-r--r--	root/root	usr/include/KDE/Akonadi/UnlinkJob
+drwxr-xr-x	root/root	usr/include/KDE/KABC/
+-rw-r--r--	root/root	usr/include/KDE/KABC/Address
+-rw-r--r--	root/root	usr/include/KDE/KABC/AddressBook
+-rw-r--r--	root/root	usr/include/KDE/KABC/AddressLineEdit
+-rw-r--r--	root/root	usr/include/KDE/KABC/Addressee
+-rw-r--r--	root/root	usr/include/KDE/KABC/AddresseeDialog
+-rw-r--r--	root/root	usr/include/KDE/KABC/AddresseeList
+-rw-r--r--	root/root	usr/include/KDE/KABC/ContactGroup
+-rw-r--r--	root/root	usr/include/KDE/KABC/ContactGroupTool
+-rw-r--r--	root/root	usr/include/KDE/KABC/DistributionList
+-rw-r--r--	root/root	usr/include/KDE/KABC/DistributionListDialog
+-rw-r--r--	root/root	usr/include/KDE/KABC/EmailSelectDialog
+-rw-r--r--	root/root	usr/include/KDE/KABC/ErrorHandler
+-rw-r--r--	root/root	usr/include/KDE/KABC/Field
+-rw-r--r--	root/root	usr/include/KDE/KABC/Format
+-rw-r--r--	root/root	usr/include/KDE/KABC/FormatFactory
+-rw-r--r--	root/root	usr/include/KDE/KABC/Geo
+-rw-r--r--	root/root	usr/include/KDE/KABC/Key
+-rw-r--r--	root/root	usr/include/KDE/KABC/LDIFConverter
+-rw-r--r--	root/root	usr/include/KDE/KABC/Lock
+-rw-r--r--	root/root	usr/include/KDE/KABC/LockNull
+-rw-r--r--	root/root	usr/include/KDE/KABC/PhoneNumber
+-rw-r--r--	root/root	usr/include/KDE/KABC/Picture
+-rw-r--r--	root/root	usr/include/KDE/KABC/Plugin
+-rw-r--r--	root/root	usr/include/KDE/KABC/Resource
+-rw-r--r--	root/root	usr/include/KDE/KABC/ResourceABC
+-rw-r--r--	root/root	usr/include/KDE/KABC/ResourceCached
+-rw-r--r--	root/root	usr/include/KDE/KABC/Secrecy
+-rw-r--r--	root/root	usr/include/KDE/KABC/SortMode
+-rw-r--r--	root/root	usr/include/KDE/KABC/Sound
+-rw-r--r--	root/root	usr/include/KDE/KABC/StdAddressBook
+-rw-r--r--	root/root	usr/include/KDE/KABC/TimeZone
+-rw-r--r--	root/root	usr/include/KDE/KABC/VCardConverter
+-rw-r--r--	root/root	usr/include/KDE/KABC/VCardFormat
+drwxr-xr-x	root/root	usr/include/KDE/KBlog/
+-rw-r--r--	root/root	usr/include/KDE/KBlog/Blog
+-rw-r--r--	root/root	usr/include/KDE/KBlog/BlogComment
+-rw-r--r--	root/root	usr/include/KDE/KBlog/BlogMedia
+-rw-r--r--	root/root	usr/include/KDE/KBlog/BlogPost
+-rw-r--r--	root/root	usr/include/KDE/KBlog/Blogger1
+-rw-r--r--	root/root	usr/include/KDE/KBlog/GData
+-rw-r--r--	root/root	usr/include/KDE/KBlog/MetaWeblog
+-rw-r--r--	root/root	usr/include/KDE/KBlog/MovableType
+-rw-r--r--	root/root	usr/include/KDE/KBlog/WordpressBuggy
+drwxr-xr-x	root/root	usr/include/KDE/KCal/
+-rw-r--r--	root/root	usr/include/KDE/KCal/Alarm
+-rw-r--r--	root/root	usr/include/KDE/KCal/AssignmentVisitor
+-rw-r--r--	root/root	usr/include/KDE/KCal/Attachment
+-rw-r--r--	root/root	usr/include/KDE/KCal/Attendee
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalFilter
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalFormat
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalStorage
+-rw-r--r--	root/root	usr/include/KDE/KCal/Calendar
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalendarLocal
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalendarNull
+-rw-r--r--	root/root	usr/include/KDE/KCal/CalendarResources
+-rw-r--r--	root/root	usr/include/KDE/KCal/ConfirmSaveDialog
+-rw-r--r--	root/root	usr/include/KDE/KCal/CustomProperties
+-rw-r--r--	root/root	usr/include/KDE/KCal/DndFactory
+-rw-r--r--	root/root	usr/include/KDE/KCal/Duration
+-rw-r--r--	root/root	usr/include/KDE/KCal/Event
+-rw-r--r--	root/root	usr/include/KDE/KCal/Exceptions
+-rw-r--r--	root/root	usr/include/KDE/KCal/FileStorage
+-rw-r--r--	root/root	usr/include/KDE/KCal/FreeBusy
+-rw-r--r--	root/root	usr/include/KDE/KCal/FreeBusyCache
+-rw-r--r--	root/root	usr/include/KDE/KCal/FreeBusyPeriod
+-rw-r--r--	root/root	usr/include/KDE/KCal/FreeBusyUrlStore
+-rw-r--r--	root/root	usr/include/KDE/KCal/HtmlExport
+-rw-r--r--	root/root	usr/include/KDE/KCal/HtmlExportSettings
+-rw-r--r--	root/root	usr/include/KDE/KCal/ICalDrag
+-rw-r--r--	root/root	usr/include/KDE/KCal/ICalFormat
+-rw-r--r--	root/root	usr/include/KDE/KCal/ICalTimeZones
+-rw-r--r--	root/root	usr/include/KDE/KCal/IMIPScheduler
+-rw-r--r--	root/root	usr/include/KDE/KCal/Incidence
+-rw-r--r--	root/root	usr/include/KDE/KCal/IncidenceBase
+-rw-r--r--	root/root	usr/include/KDE/KCal/IncidenceFormatter
+-rw-r--r--	root/root	usr/include/KDE/KCal/Journal
+-rw-r--r--	root/root	usr/include/KDE/KCal/KCalVersion
+-rw-r--r--	root/root	usr/include/KDE/KCal/KResult
+-rw-r--r--	root/root	usr/include/KDE/KCal/ListBase
+-rw-r--r--	root/root	usr/include/KDE/KCal/Period
+-rw-r--r--	root/root	usr/include/KDE/KCal/Person
+-rw-r--r--	root/root	usr/include/KDE/KCal/QtopiaFormat
+-rw-r--r--	root/root	usr/include/KDE/KCal/Recurrence
+-rw-r--r--	root/root	usr/include/KDE/KCal/RecurrenceRule
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceCached
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceCachedConfig
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceCalendar
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceLocal
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceLocalConfig
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceLocalDir
+-rw-r--r--	root/root	usr/include/KDE/KCal/ResourceLocalDirConfig
+-rw-r--r--	root/root	usr/include/KDE/KCal/Scheduler
+-rw-r--r--	root/root	usr/include/KDE/KCal/SortableList
+-rw-r--r--	root/root	usr/include/KDE/KCal/Todo
+-rw-r--r--	root/root	usr/include/KDE/KCal/VCalDrag
+-rw-r--r--	root/root	usr/include/KDE/KCal/VCalFormat
+drwxr-xr-x	root/root	usr/include/KDE/KHolidays/
+-rw-r--r--	root/root	usr/include/KDE/KHolidays/AstroSeasons
+-rw-r--r--	root/root	usr/include/KDE/KHolidays/Holidays
+-rw-r--r--	root/root	usr/include/KDE/KHolidays/LunarPhase
+-rw-r--r--	root/root	usr/include/KDE/KHolidays/Zodiac
+drwxr-xr-x	root/root	usr/include/KDE/KLDAP/
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/Ber
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapAttributeProxyModel
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapConfigWidget
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapConnection
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapControl
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapDN
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapDefs
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapModel
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapObject
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapOperation
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapSearch
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapServer
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapStructureProxyModel
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/LdapUrl
+-rw-r--r--	root/root	usr/include/KDE/KLDAP/Ldif
+drwxr-xr-x	root/root	usr/include/KDE/KPIMIdentities/
+-rw-r--r--	root/root	usr/include/KDE/KPIMIdentities/Identity
+-rw-r--r--	root/root	usr/include/KDE/KPIMIdentities/IdentityCombo
+-rw-r--r--	root/root	usr/include/KDE/KPIMIdentities/IdentityManager
+-rw-r--r--	root/root	usr/include/KDE/KPIMIdentities/Signature
+-rw-r--r--	root/root	usr/include/KDE/KPIMIdentities/SignatureConfigurator
+drwxr-xr-x	root/root	usr/include/KDE/KPIMTextEdit/
+-rw-r--r--	root/root	usr/include/KDE/KPIMTextEdit/EMailQuoteHighlighter
+-rw-r--r--	root/root	usr/include/KDE/KPIMTextEdit/TextEdit
+drwxr-xr-x	root/root	usr/include/KDE/KPIMUtils/
+-rw-r--r--	root/root	usr/include/KDE/KPIMUtils/Email
+-rw-r--r--	root/root	usr/include/KDE/KPIMUtils/KFileIO
+-rw-r--r--	root/root	usr/include/KDE/KPIMUtils/LinkLocator
+-rw-r--r--	root/root	usr/include/KDE/KPIMUtils/SpellingFilter
+-rw-r--r--	root/root	usr/include/KDE/KPIMUtils/SuperTrait
+drwxr-xr-x	root/root	usr/include/KDE/KResources/
+-rw-r--r--	root/root	usr/include/KDE/KResources/ConfigDialog
+-rw-r--r--	root/root	usr/include/KDE/KResources/ConfigPage
+-rw-r--r--	root/root	usr/include/KDE/KResources/ConfigWidget
+-rw-r--r--	root/root	usr/include/KDE/KResources/Factory
+-rw-r--r--	root/root	usr/include/KDE/KResources/IdMapper
+-rw-r--r--	root/root	usr/include/KDE/KResources/Manager
+-rw-r--r--	root/root	usr/include/KDE/KResources/ManagerImpl
+-rw-r--r--	root/root	usr/include/KDE/KResources/Resource
+-rw-r--r--	root/root	usr/include/KDE/KResources/SelectDialog
+drwxr-xr-x	root/root	usr/include/KDE/Syndication/
+-rw-r--r--	root/root	usr/include/KDE/Syndication/AbstractParser
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Category
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Constants
+-rw-r--r--	root/root	usr/include/KDE/Syndication/DataRetriever
+-rw-r--r--	root/root	usr/include/KDE/Syndication/DocumentSource
+-rw-r--r--	root/root	usr/include/KDE/Syndication/DocumentVisitor
+-rw-r--r--	root/root	usr/include/KDE/Syndication/ElementWrapper
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Enclosure
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Feed
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Global
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Image
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Item
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Loader
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Mapper
+-rw-r--r--	root/root	usr/include/KDE/Syndication/ParserCollection
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Person
+-rw-r--r--	root/root	usr/include/KDE/Syndication/SpecificDocument
+-rw-r--r--	root/root	usr/include/KDE/Syndication/SpecificItem
+-rw-r--r--	root/root	usr/include/KDE/Syndication/SpecificItemVisitor
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Syndication
+-rw-r--r--	root/root	usr/include/KDE/Syndication/Tools
 drwxr-xr-x	root/root	usr/include/akonadi/
 -rw-r--r--	root/root	usr/include/akonadi/agentbase.h
 -rw-r--r--	root/root	usr/include/akonadi/agentfilterproxymodel.h
@@ -21,12 +248,14 @@ drwxr-xr-x	root/root	usr/include/akonadi/
 -rw-r--r--	root/root	usr/include/akonadi/collectioncopyjob.h
 -rw-r--r--	root/root	usr/include/akonadi/collectioncreatejob.h
 -rw-r--r--	root/root	usr/include/akonadi/collectiondeletejob.h
+-rw-r--r--	root/root	usr/include/akonadi/collectiondialog.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionfetchjob.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionfilterproxymodel.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionmodel.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionmodifyjob.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionpropertiesdialog.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionpropertiespage.h
+-rw-r--r--	root/root	usr/include/akonadi/collectionrequester.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionstatistics.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionstatisticsdelegate.h
 -rw-r--r--	root/root	usr/include/akonadi/collectionstatisticsjob.h
@@ -35,6 +264,7 @@ drwxr-xr-x	root/root	usr/include/akonadi/
 -rw-r--r--	root/root	usr/include/akonadi/control.h
 -rw-r--r--	root/root	usr/include/akonadi/entity.h
 -rw-r--r--	root/root	usr/include/akonadi/entitydisplayattribute.h
+-rw-r--r--	root/root	usr/include/akonadi/exception.h
 -rw-r--r--	root/root	usr/include/akonadi/item.h
 -rw-r--r--	root/root	usr/include/akonadi/itemcopyjob.h
 -rw-r--r--	root/root	usr/include/akonadi/itemcreatejob.h
@@ -60,9 +290,11 @@ drwxr-xr-x	root/root	usr/include/akonadi/kmime/
 -rw-r--r--	root/root	usr/include/akonadi/kmime/messagethreaderproxymodel.h
 -rw-r--r--	root/root	usr/include/akonadi/kmime/messagethreadingattribute.h
 -rw-r--r--	root/root	usr/include/akonadi/linkjob.h
+-rw-r--r--	root/root	usr/include/akonadi/mimetypechecker.h
 -rw-r--r--	root/root	usr/include/akonadi/monitor.h
 drwxr-xr-x	root/root	usr/include/akonadi/private/
 -rw-r--r--	root/root	usr/include/akonadi/private/collectionpathresolver_p.h
+-rw-r--r--	root/root	usr/include/akonadi/qtest_akonadi.h
 -rw-r--r--	root/root	usr/include/akonadi/resourcebase.h
 -rw-r--r--	root/root	usr/include/akonadi/searchcreatejob.h
 -rw-r--r--	root/root	usr/include/akonadi/servermanager.h
@@ -108,6 +340,8 @@ drwxr-xr-x	root/root	usr/include/kabc/
 -rw-r--r--	root/root	usr/include/kabc/addresseedialog.h
 -rw-r--r--	root/root	usr/include/kabc/addresseelist.h
 -rw-r--r--	root/root	usr/include/kabc/addresslineedit.h
+-rw-r--r--	root/root	usr/include/kabc/contactgroup.h
+-rw-r--r--	root/root	usr/include/kabc/contactgrouptool.h
 -rw-r--r--	root/root	usr/include/kabc/distributionlist.h
 -rw-r--r--	root/root	usr/include/kabc/distributionlistdialog.h
 -rw-r--r--	root/root	usr/include/kabc/emailselectdialog.h
@@ -150,6 +384,7 @@ drwxr-xr-x	root/root	usr/include/kblog/
 -rw-r--r--	root/root	usr/include/kblog/wordpressbuggy.h
 drwxr-xr-x	root/root	usr/include/kcal/
 -rw-r--r--	root/root	usr/include/kcal/alarm.h
+-rw-r--r--	root/root	usr/include/kcal/assignmentvisitor.h
 -rw-r--r--	root/root	usr/include/kcal/attachment.h
 -rw-r--r--	root/root	usr/include/kcal/attendee.h
 -rw-r--r--	root/root	usr/include/kcal/calendar.h
@@ -159,6 +394,7 @@ drwxr-xr-x	root/root	usr/include/kcal/
 -rw-r--r--	root/root	usr/include/kcal/calfilter.h
 -rw-r--r--	root/root	usr/include/kcal/calformat.h
 -rw-r--r--	root/root	usr/include/kcal/calstorage.h
+-rw-r--r--	root/root	usr/include/kcal/comparisonvisitor.h
 -rw-r--r--	root/root	usr/include/kcal/confirmsavedialog.h
 -rw-r--r--	root/root	usr/include/kcal/customproperties.h
 -rw-r--r--	root/root	usr/include/kcal/dndfactory.h
@@ -201,9 +437,50 @@ drwxr-xr-x	root/root	usr/include/kcal/
 -rw-r--r--	root/root	usr/include/kcal/todo.h
 -rw-r--r--	root/root	usr/include/kcal/vcaldrag.h
 -rw-r--r--	root/root	usr/include/kcal/vcalformat.h
+drwxr-xr-x	root/root	usr/include/kholidays/
+-rw-r--r--	root/root	usr/include/kholidays/astroseasons.h
+-rw-r--r--	root/root	usr/include/kholidays/holidays.h
+-rw-r--r--	root/root	usr/include/kholidays/kholidays_export.h
+-rw-r--r--	root/root	usr/include/kholidays/lunarphase.h
+-rw-r--r--	root/root	usr/include/kholidays/zodiac.h
 drwxr-xr-x	root/root	usr/include/kimap/
+-rw-r--r--	root/root	usr/include/kimap/acl.h
+-rw-r--r--	root/root	usr/include/kimap/acljobbase.h
+-rw-r--r--	root/root	usr/include/kimap/appendjob.h
+-rw-r--r--	root/root	usr/include/kimap/capabilitiesjob.h
+-rw-r--r--	root/root	usr/include/kimap/closejob.h
+-rw-r--r--	root/root	usr/include/kimap/copyjob.h
+-rw-r--r--	root/root	usr/include/kimap/createjob.h
+-rw-r--r--	root/root	usr/include/kimap/deleteacljob.h
+-rw-r--r--	root/root	usr/include/kimap/deletejob.h
+-rw-r--r--	root/root	usr/include/kimap/expungejob.h
+-rw-r--r--	root/root	usr/include/kimap/fetchjob.h
+-rw-r--r--	root/root	usr/include/kimap/getacljob.h
+-rw-r--r--	root/root	usr/include/kimap/getmetadatajob.h
+-rw-r--r--	root/root	usr/include/kimap/getquotajob.h
+-rw-r--r--	root/root	usr/include/kimap/getquotarootjob.h
+-rw-r--r--	root/root	usr/include/kimap/imapset.h
+-rw-r--r--	root/root	usr/include/kimap/job.h
 -rw-r--r--	root/root	usr/include/kimap/kimap_export.h
+-rw-r--r--	root/root	usr/include/kimap/listjob.h
+-rw-r--r--	root/root	usr/include/kimap/listrightsjob.h
+-rw-r--r--	root/root	usr/include/kimap/loginjob.h
+-rw-r--r--	root/root	usr/include/kimap/logoutjob.h
+-rw-r--r--	root/root	usr/include/kimap/metadatajobbase.h
+-rw-r--r--	root/root	usr/include/kimap/myrightsjob.h
+-rw-r--r--	root/root	usr/include/kimap/quotajobbase.h
+-rw-r--r--	root/root	usr/include/kimap/renamejob.h
 -rw-r--r--	root/root	usr/include/kimap/rfccodecs.h
+-rw-r--r--	root/root	usr/include/kimap/searchjob.h
+-rw-r--r--	root/root	usr/include/kimap/selectjob.h
+-rw-r--r--	root/root	usr/include/kimap/session.h
+-rw-r--r--	root/root	usr/include/kimap/sessionuiproxy.h
+-rw-r--r--	root/root	usr/include/kimap/setacljob.h
+-rw-r--r--	root/root	usr/include/kimap/setmetadatajob.h
+-rw-r--r--	root/root	usr/include/kimap/setquotajob.h
+-rw-r--r--	root/root	usr/include/kimap/storejob.h
+-rw-r--r--	root/root	usr/include/kimap/subscribejob.h
+-rw-r--r--	root/root	usr/include/kimap/unsubscribejob.h
 drwxr-xr-x	root/root	usr/include/kldap/
 -rw-r--r--	root/root	usr/include/kldap/ber.h
 -rw-r--r--	root/root	usr/include/kldap/kldap_export.h
@@ -242,12 +519,17 @@ drwxr-xr-x	root/root	usr/include/kpimidentities/
 -rw-r--r--	root/root	usr/include/kpimidentities/kpimidentities_export.h
 -rw-r--r--	root/root	usr/include/kpimidentities/signature.h
 -rw-r--r--	root/root	usr/include/kpimidentities/signatureconfigurator.h
+drwxr-xr-x	root/root	usr/include/kpimtextedit/
+-rw-r--r--	root/root	usr/include/kpimtextedit/emailquotehighlighter.h
+-rw-r--r--	root/root	usr/include/kpimtextedit/kpimtextedit_export.h
+-rw-r--r--	root/root	usr/include/kpimtextedit/textedit.h
 drwxr-xr-x	root/root	usr/include/kpimutils/
 -rw-r--r--	root/root	usr/include/kpimutils/email.h
 -rw-r--r--	root/root	usr/include/kpimutils/kfileio.h
 -rw-r--r--	root/root	usr/include/kpimutils/kpimutils_export.h
 -rw-r--r--	root/root	usr/include/kpimutils/linklocator.h
 -rw-r--r--	root/root	usr/include/kpimutils/spellingfilter.h
+-rw-r--r--	root/root	usr/include/kpimutils/supertrait.h
 drwxr-xr-x	root/root	usr/include/kresources/
 -rw-r--r--	root/root	usr/include/kresources/configdialog.h
 -rw-r--r--	root/root	usr/include/kresources/configpage.h
@@ -284,6 +566,9 @@ drwxr-xr-x	root/root	usr/include/mailtransport/
 -rw-r--r--	root/root	usr/include/mailtransport/transportjob.h
 -rw-r--r--	root/root	usr/include/mailtransport/transportmanagementwidget.h
 -rw-r--r--	root/root	usr/include/mailtransport/transportmanager.h
+drwxr-xr-x	root/root	usr/include/microblog/
+-rw-r--r--	root/root	usr/include/microblog/microblog_export.h
+-rw-r--r--	root/root	usr/include/microblog/statusitem.h
 drwxr-xr-x	root/root	usr/include/qgpgme/
 -rw-r--r--	root/root	usr/include/qgpgme/dataprovider.h
 -rw-r--r--	root/root	usr/include/qgpgme/eventloopinteractor.h
@@ -359,12 +644,12 @@ drwxr-xr-x	root/root	usr/include/syndication/rss2/
 -rw-r--r--	root/root	usr/include/syndication/syndication.h
 -rw-r--r--	root/root	usr/include/syndication/tools.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/KdepimLibs-4.2.4/
-drwxr-xr-x	root/root	usr/lib/KdepimLibs-4.2.4/cmake/
--rw-r--r--	root/root	usr/lib/KdepimLibs-4.2.4/cmake/KDEPimLibsLibraryTargetsWithPrefix-release.cmake
--rw-r--r--	root/root	usr/lib/KdepimLibs-4.2.4/cmake/KDEPimLibsLibraryTargetsWithPrefix.cmake
--rw-r--r--	root/root	usr/lib/KdepimLibs-4.2.4/cmake/KdepimLibsConfig.cmake
--rw-r--r--	root/root	usr/lib/KdepimLibs-4.2.4/cmake/KdepimLibsConfigVersion.cmake
+drwxr-xr-x	root/root	usr/lib/KdepimLibs/
+drwxr-xr-x	root/root	usr/lib/KdepimLibs/cmake/
+-rw-r--r--	root/root	usr/lib/KdepimLibs/cmake/KDEPimLibsLibraryTargetsWithPrefix-release.cmake
+-rw-r--r--	root/root	usr/lib/KdepimLibs/cmake/KDEPimLibsLibraryTargetsWithPrefix.cmake
+-rw-r--r--	root/root	usr/lib/KdepimLibs/cmake/KdepimLibsConfig.cmake
+-rw-r--r--	root/root	usr/lib/KdepimLibs/cmake/KdepimLibsConfigVersion.cmake
 drwxr-xr-x	root/root	usr/lib/gpgmepp/
 -rw-r--r--	root/root	usr/lib/gpgmepp/GpgmeppConfig.cmake
 -rw-r--r--	root/root	usr/lib/gpgmepp/GpgmeppLibraryDepends.cmake
@@ -386,68 +671,77 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/kio_sieve.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kio_smtp.so
 lrwxrwxrwx	root/root	usr/lib/libakonadi-kabc.so -> libakonadi-kabc.so.4
-lrwxrwxrwx	root/root	usr/lib/libakonadi-kabc.so.4 -> libakonadi-kabc.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libakonadi-kabc.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-kabc.so.4 -> libakonadi-kabc.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-kabc.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libakonadi-kde.so -> libakonadi-kde.so.4
-lrwxrwxrwx	root/root	usr/lib/libakonadi-kde.so.4 -> libakonadi-kde.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libakonadi-kde.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-kde.so.4 -> libakonadi-kde.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-kde.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libakonadi-kmime.so -> libakonadi-kmime.so.4
-lrwxrwxrwx	root/root	usr/lib/libakonadi-kmime.so.4 -> libakonadi-kmime.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libakonadi-kmime.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libakonadi-kmime.so.4 -> libakonadi-kmime.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libakonadi-kmime.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libgpgme++-pth.so -> libgpgme++-pth.so.2
-lrwxrwxrwx	root/root	usr/lib/libgpgme++-pth.so.2 -> libgpgme++-pth.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libgpgme++-pth.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libgpgme++-pth.so.2 -> libgpgme++-pth.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libgpgme++-pth.so.2.2.1
 lrwxrwxrwx	root/root	usr/lib/libgpgme++-pthread.so -> libgpgme++-pthread.so.2
-lrwxrwxrwx	root/root	usr/lib/libgpgme++-pthread.so.2 -> libgpgme++-pthread.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libgpgme++-pthread.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libgpgme++-pthread.so.2 -> libgpgme++-pthread.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libgpgme++-pthread.so.2.2.1
 lrwxrwxrwx	root/root	usr/lib/libgpgme++.so -> libgpgme++.so.2
-lrwxrwxrwx	root/root	usr/lib/libgpgme++.so.2 -> libgpgme++.so.2.0.2
--rwxr-xr-x	root/root	usr/lib/libgpgme++.so.2.0.2
+lrwxrwxrwx	root/root	usr/lib/libgpgme++.so.2 -> libgpgme++.so.2.2.1
+-rwxr-xr-x	root/root	usr/lib/libgpgme++.so.2.2.1
 lrwxrwxrwx	root/root	usr/lib/libkabc.so -> libkabc.so.4
-lrwxrwxrwx	root/root	usr/lib/libkabc.so.4 -> libkabc.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkabc.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkabc.so.4 -> libkabc.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkabc.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkabc_file_core.so -> libkabc_file_core.so.4
-lrwxrwxrwx	root/root	usr/lib/libkabc_file_core.so.4 -> libkabc_file_core.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkabc_file_core.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkabc_file_core.so.4 -> libkabc_file_core.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkabc_file_core.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkblog.so -> libkblog.so.4
-lrwxrwxrwx	root/root	usr/lib/libkblog.so.4 -> libkblog.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkblog.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkblog.so.4 -> libkblog.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkblog.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkcal.so -> libkcal.so.4
-lrwxrwxrwx	root/root	usr/lib/libkcal.so.4 -> libkcal.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkcal.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkcal.so.4 -> libkcal.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkcal.so.4.3.0
+lrwxrwxrwx	root/root	usr/lib/libkholidays.so -> libkholidays.so.4
+lrwxrwxrwx	root/root	usr/lib/libkholidays.so.4 -> libkholidays.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkholidays.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkimap.so -> libkimap.so.4
-lrwxrwxrwx	root/root	usr/lib/libkimap.so.4 -> libkimap.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkimap.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkimap.so.4 -> libkimap.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkimap.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkldap.so -> libkldap.so.4
-lrwxrwxrwx	root/root	usr/lib/libkldap.so.4 -> libkldap.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkldap.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkldap.so.4 -> libkldap.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkldap.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkmime.so -> libkmime.so.4
-lrwxrwxrwx	root/root	usr/lib/libkmime.so.4 -> libkmime.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkmime.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkmime.so.4 -> libkmime.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkmime.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkpimidentities.so -> libkpimidentities.so.4
-lrwxrwxrwx	root/root	usr/lib/libkpimidentities.so.4 -> libkpimidentities.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkpimidentities.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpimidentities.so.4 -> libkpimidentities.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkpimidentities.so.4.3.0
+lrwxrwxrwx	root/root	usr/lib/libkpimtextedit.so -> libkpimtextedit.so.4
+lrwxrwxrwx	root/root	usr/lib/libkpimtextedit.so.4 -> libkpimtextedit.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkpimtextedit.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkpimutils.so -> libkpimutils.so.4
-lrwxrwxrwx	root/root	usr/lib/libkpimutils.so.4 -> libkpimutils.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkpimutils.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkpimutils.so.4 -> libkpimutils.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkpimutils.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkresources.so -> libkresources.so.4
-lrwxrwxrwx	root/root	usr/lib/libkresources.so.4 -> libkresources.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkresources.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkresources.so.4 -> libkresources.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkresources.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libktnef.so -> libktnef.so.4
-lrwxrwxrwx	root/root	usr/lib/libktnef.so.4 -> libktnef.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libktnef.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libktnef.so.4 -> libktnef.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libktnef.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libkxmlrpcclient.so -> libkxmlrpcclient.so.4
-lrwxrwxrwx	root/root	usr/lib/libkxmlrpcclient.so.4 -> libkxmlrpcclient.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libkxmlrpcclient.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libkxmlrpcclient.so.4 -> libkxmlrpcclient.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libkxmlrpcclient.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libmailtransport.so -> libmailtransport.so.4
-lrwxrwxrwx	root/root	usr/lib/libmailtransport.so.4 -> libmailtransport.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libmailtransport.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libmailtransport.so.4 -> libmailtransport.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libmailtransport.so.4.3.0
+lrwxrwxrwx	root/root	usr/lib/libmicroblog.so -> libmicroblog.so.4
+lrwxrwxrwx	root/root	usr/lib/libmicroblog.so.4 -> libmicroblog.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libmicroblog.so.4.3.0
 lrwxrwxrwx	root/root	usr/lib/libqgpgme.so -> libqgpgme.so.1
 lrwxrwxrwx	root/root	usr/lib/libqgpgme.so.1 -> libqgpgme.so.1.0.1
 -rwxr-xr-x	root/root	usr/lib/libqgpgme.so.1.0.1
 lrwxrwxrwx	root/root	usr/lib/libsyndication.so -> libsyndication.so.4
-lrwxrwxrwx	root/root	usr/lib/libsyndication.so.4 -> libsyndication.so.4.2.0
--rwxr-xr-x	root/root	usr/lib/libsyndication.so.4.2.0
+lrwxrwxrwx	root/root	usr/lib/libsyndication.so.4 -> libsyndication.so.4.3.0
+-rwxr-xr-x	root/root	usr/lib/libsyndication.so.4.3.0
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/apps/
 drwxr-xr-x	root/root	usr/share/apps/akonadi-kde/
@@ -468,6 +762,60 @@ drwxr-xr-x	root/root	usr/share/apps/kabc/formats/
 drwxr-xr-x	root/root	usr/share/apps/kconf_update/
 -rw-r--r--	root/root	usr/share/apps/kconf_update/mailtransports.upd
 -rwxr-xr-x	root/root	usr/share/apps/kconf_update/migrate-transports.pl
+drwxr-xr-x	root/root	usr/share/apps/libkholidays/
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_BelgiumDutch
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_BelgiumFrench
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_BelgiumWalloon
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_Suedtirol
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ar
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_at
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_au
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_bavarian
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_bg
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_br
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ca
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_catalan
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ch
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_cl
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_co
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_cz
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_de
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_dk
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ee
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_es
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_fi
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_fr
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_frswiss
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_gb
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_gr
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_gt
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_hu
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ie
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_il
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_in
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_is
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_it
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_jm
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_jp
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_lt
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_mx
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_nl
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_no
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_nz
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_pl
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_pt
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_py
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_quebec
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ro
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ru
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_se
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_si
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_sk
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_th
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_ua
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_us
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_uy
+-rw-r--r--	root/root	usr/share/apps/libkholidays/holiday_za
 drwxr-xr-x	root/root	usr/share/config.kcfg/
 -rw-r--r--	root/root	usr/share/config.kcfg/mailtransport.kcfg
 drwxr-xr-x	root/root	usr/share/dbus-1/
@@ -533,3 +881,6 @@ drwxr-xr-x	root/root	usr/share/kde4/services/kresources/kcal/
 drwxr-xr-x	root/root	usr/share/kde4/servicetypes/
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/kresources_manager.desktop
 -rw-r--r--	root/root	usr/share/kde4/servicetypes/kresources_plugin.desktop
+drwxr-xr-x	root/root	usr/share/mime/
+drwxr-xr-x	root/root	usr/share/mime/packages/
+-rw-r--r--	root/root	usr/share/mime/packages/kdepimlibs-mime.xml
