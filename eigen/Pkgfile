@@ -4,8 +4,8 @@
 # Depends on: 
 
 name=eigen 
-version=2.0.3
-release=1 
+version=2.0.4
+release=1
 source=(http://bitbucket.org/$name/${name}2/get/$version.tar.bz2) 
 
 build() { 
@@ -17,7 +17,4 @@ build() {
          cmake -DCMAKE_INSTALL_PREFIX=/usr .. 
          make
          make DESTDIR=$PKG install
-
-         chown -R root:root $PKG
- 
 }
