@@ -41,6 +41,7 @@ drwxr-xr-x	root/root	usr/lib/kconf_update_bin/
 drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/cursorthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/kde4/djvuthumbnail.so
+-rwxr-xr-x	root/root	usr/lib/kde4/exrthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/kde4/fixhosturifilter.so
 -rwxr-xr-x	root/root	usr/lib/kde4/htmlthumbnail.so
 -rwxr-xr-x	root/root	usr/lib/kde4/imagethumbnail.so
@@ -938,6 +939,7 @@ drwxr-xr-x	root/root	usr/share/kde4/services/
 -rw-r--r--	root/root	usr/share/kde4/services/directorythumbnail.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/djvuthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/emoticons.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/exrthumbnail.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/filetypes.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/finger.protocol
 -rw-r--r--	root/root	usr/share/kde4/services/fish.protocol
