@@ -18,11 +18,11 @@ drwxr-xr-x	root/root	usr/lib/Akonadi/cmake/
 -rw-r--r--	root/root	usr/lib/Akonadi/cmake/AkonadiConfig.cmake
 -rw-r--r--	root/root	usr/lib/Akonadi/cmake/AkonadiConfigVersion.cmake
 lrwxrwxrwx	root/root	usr/lib/libakonadiprivate.so -> libakonadiprivate.so.1
-lrwxrwxrwx	root/root	usr/lib/libakonadiprivate.so.1 -> libakonadiprivate.so.1.1.95
--rwxr-xr-x	root/root	usr/lib/libakonadiprivate.so.1.1.95
+lrwxrwxrwx	root/root	usr/lib/libakonadiprivate.so.1 -> libakonadiprivate.so.1.2.0
+-rwxr-xr-x	root/root	usr/lib/libakonadiprivate.so.1.2.0
 lrwxrwxrwx	root/root	usr/lib/libakonadiprotocolinternals.so -> libakonadiprotocolinternals.so.1
-lrwxrwxrwx	root/root	usr/lib/libakonadiprotocolinternals.so.1 -> libakonadiprotocolinternals.so.1.1.95
--rwxr-xr-x	root/root	usr/lib/libakonadiprotocolinternals.so.1.1.95
+lrwxrwxrwx	root/root	usr/lib/libakonadiprotocolinternals.so.1 -> libakonadiprotocolinternals.so.1.2.0
+-rwxr-xr-x	root/root	usr/lib/libakonadiprotocolinternals.so.1.2.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/akonadi.pc
 drwxr-xr-x	root/root	usr/share/
