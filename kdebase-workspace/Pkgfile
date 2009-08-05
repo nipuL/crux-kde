@@ -4,9 +4,9 @@
 # Depends on: kdebase-runtime xmms xorg-libxcomposite xorg-libxinerama lm_sensors
 
 name=kdebase-workspace
-version=4.2.98
+version=4.3.0
 release=1
-source=(http://download.kde.org/unstable/$version/src/$name-$version.tar.bz2 
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2 
 	kdm)
 
 
@@ -16,10 +16,11 @@ build () {
 	mkdir build
 	cd build
  
-	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DWITH_Xmms=OFF \
-		-DWITH_Googlegadgets=OFF -DWITH_QEdje=OFF
+	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+	    -DCMAKE_PREFIX_PATH=/usr \
+	    -DCMAKE_BUILD_TYPE=Release
 	
-	nice make -j3
+	make
 	make DESTDIR=$PKG install
 
 	install -D -m755 $SRC/kdm $PKG/etc/rc.d/kdm
