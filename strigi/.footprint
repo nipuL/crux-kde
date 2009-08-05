@@ -60,25 +60,26 @@ drwxr-xr-x	root/root	usr/include/strigi/qtdbus/
 -rw-r--r--	root/root	usr/include/strigi/variant.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libsearchclient.so -> libsearchclient.so.0
-lrwxrwxrwx	root/root	usr/lib/libsearchclient.so.0 -> libsearchclient.so.0.6.5
--rwxr-xr-x	root/root	usr/lib/libsearchclient.so.0.6.5
+lrwxrwxrwx	root/root	usr/lib/libsearchclient.so.0 -> libsearchclient.so.0.7.0
+-rwxr-xr-x	root/root	usr/lib/libsearchclient.so.0.7.0
 lrwxrwxrwx	root/root	usr/lib/libstreamanalyzer.so -> libstreamanalyzer.so.0
-lrwxrwxrwx	root/root	usr/lib/libstreamanalyzer.so.0 -> libstreamanalyzer.so.0.6.5
--rwxr-xr-x	root/root	usr/lib/libstreamanalyzer.so.0.6.5
+lrwxrwxrwx	root/root	usr/lib/libstreamanalyzer.so.0 -> libstreamanalyzer.so.0.7.0
+-rwxr-xr-x	root/root	usr/lib/libstreamanalyzer.so.0.7.0
 lrwxrwxrwx	root/root	usr/lib/libstreams.so -> libstreams.so.0
-lrwxrwxrwx	root/root	usr/lib/libstreams.so.0 -> libstreams.so.0.6.5
--rwxr-xr-x	root/root	usr/lib/libstreams.so.0.6.5
+lrwxrwxrwx	root/root	usr/lib/libstreams.so.0 -> libstreams.so.0.7.0
+-rwxr-xr-x	root/root	usr/lib/libstreams.so.0.7.0
 lrwxrwxrwx	root/root	usr/lib/libstrigihtmlgui.so -> libstrigihtmlgui.so.0
-lrwxrwxrwx	root/root	usr/lib/libstrigihtmlgui.so.0 -> libstrigihtmlgui.so.0.6.5
--rwxr-xr-x	root/root	usr/lib/libstrigihtmlgui.so.0.6.5
+lrwxrwxrwx	root/root	usr/lib/libstrigihtmlgui.so.0 -> libstrigihtmlgui.so.0.7.0
+-rwxr-xr-x	root/root	usr/lib/libstrigihtmlgui.so.0.7.0
 lrwxrwxrwx	root/root	usr/lib/libstrigiqtdbusclient.so -> libstrigiqtdbusclient.so.0
-lrwxrwxrwx	root/root	usr/lib/libstrigiqtdbusclient.so.0 -> libstrigiqtdbusclient.so.0.6.5
--rwxr-xr-x	root/root	usr/lib/libstrigiqtdbusclient.so.0.6.5
+lrwxrwxrwx	root/root	usr/lib/libstrigiqtdbusclient.so.0 -> libstrigiqtdbusclient.so.0.7.0
+-rwxr-xr-x	root/root	usr/lib/libstrigiqtdbusclient.so.0.7.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libstreamanalyzer.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libstreams.pc
 drwxr-xr-x	root/root	usr/lib/strigi/
 -rw-r--r--	root/root	usr/lib/strigi/StrigiConfig.cmake
+-rwxr-xr-x	root/root	usr/lib/strigi/strigiea_jpeg.so
 -rwxr-xr-x	root/root	usr/lib/strigi/strigiindex_clucene.so
 -rwxr-xr-x	root/root	usr/lib/strigi/strigila_cpp.so
 -rwxr-xr-x	root/root	usr/lib/strigi/strigila_deb.so
@@ -103,6 +104,12 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 drwxr-xr-x	root/root	usr/share/strigi/
 drwxr-xr-x	root/root	usr/share/strigi/fieldproperties/
 -rw-r--r--	root/root	usr/share/strigi/fieldproperties/homeless.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nao_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/ncal_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nco_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nexif_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nfo_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nid3_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nie_data.rdfs
+-rw-r--r--	root/root	usr/share/strigi/fieldproperties/nmo_data.rdfs
 -rw-r--r--	root/root	usr/share/strigi/fieldproperties/strigi.rdfs
--rw-r--r--	root/root	usr/share/strigi/fieldproperties/xesam-convenience.rdfs
--rw-r--r--	root/root	usr/share/strigi/fieldproperties/xesam.rdfs
