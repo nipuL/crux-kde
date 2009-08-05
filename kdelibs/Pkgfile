@@ -1,17 +1,16 @@
 # Description: KDE base libs
 # URL: http://kde.org
 # Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: cmake, strigi, soprano, hal, dbus, xorg-server, shared-mime-info, libungif, taglib, qimageblitz, qca, akode, eigen, gmm, automoc4, phonon, libpcre
+# Depends on: cmake, strigi, soprano, hal, dbus, xorg-server, shared-mime-info, libungif, taglib, qimageblitz, qca, akode, eigen, gmm, automoc4, phonon, libpcre, enchant, openexr
 
 name=kdelibs
-version=4.2.98
+version=4.3.0
 release=1
-source=(http://download.kde.org/unstable/$version/src/kdelibs-$version.tar.bz2)
+source=(http://download.kde.org/stable/$version/src/kdelibs-$version.tar.bz2)
 
 build () {
 	cd $name-$version
 	
-
 	mkdir build
 	cd build
 

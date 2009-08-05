@@ -1701,6 +1701,7 @@ drwxr-xr-x	root/root	usr/lib/kde4/
 -rwxr-xr-x	root/root	usr/lib/kde4/krossmodulekdetranslation.so
 -rwxr-xr-x	root/root	usr/lib/kde4/krossqts.so
 -rwxr-xr-x	root/root	usr/lib/kde4/kspell_aspell.so
+-rwxr-xr-x	root/root	usr/lib/kde4/kspell_enchant.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_insertfile.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_kdatatool.so
 -rwxr-xr-x	root/root	usr/lib/kde4/ktexteditor_python-encoding.so
@@ -1730,6 +1731,7 @@ drwxr-xr-x	root/root	usr/lib/kde4/plugins/designer/
 drwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_dds.so
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_eps.so
+-rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_exr.so
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_pcx.so
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_psd.so
 -rwxr-xr-x	root/root	usr/lib/kde4/plugins/imageformats/kimg_rgb.so
@@ -4053,6 +4055,7 @@ drwxr-xr-x	root/root	usr/share/kde4/services/kded/
 -rw-r--r--	root/root	usr/share/kde4/services/kmailservice.protocol
 -rw-r--r--	root/root	usr/share/kde4/services/kmultipart.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/kspell_aspell.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/kspell_enchant.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_insertfile.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_kdatatool.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/ktexteditor_python-encoding.desktop
@@ -4066,6 +4069,7 @@ drwxr-xr-x	root/root	usr/share/kde4/services/qimageioplugins/
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/bmp.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/dds.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/eps.desktop
+-rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/exr.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/gif.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/hdr.desktop
 -rw-r--r--	root/root	usr/share/kde4/services/qimageioplugins/ico.desktop
