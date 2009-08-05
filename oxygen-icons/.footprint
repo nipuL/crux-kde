@@ -633,9 +633,11 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/character-set.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/checkbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/chronometer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/code-block.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/code-class.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/code-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/code-function.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/code-variable.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/color-picker-white.png
@@ -731,6 +733,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-find-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-find.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-link.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-paste.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/edit-rename.png
@@ -745,6 +748,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/16x16/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/flag-yellow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/flag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/folder-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/folder-sync.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/fork.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/format-add-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/16x16/actions/format-fill-color.png
@@ -1649,9 +1653,11 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/character-set.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/checkbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/chronometer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/code-block.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/code-class.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/code-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/code-function.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/code-variable.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/color-picker-white.png
@@ -1745,6 +1751,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-find-replace.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-find-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-find.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-paste.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/edit-rename.png
@@ -1759,6 +1766,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/flag-yellow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/flag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/folder-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/folder-sync.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/fork.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/format-add-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/format-fill-color.png
@@ -1928,6 +1936,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/22x22/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/page-zoom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/player-volume.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/pointer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/preflight-verifier.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/process-stop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/22x22/actions/project-development-close-all.png
@@ -2751,6 +2760,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/256x256/mimetypes/
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-qet-project.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-rar.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-rpm.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-ruby.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-shellscript.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-trash.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/256x256/mimetypes/application-x-zerosize.png
@@ -2824,9 +2834,11 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/character-set.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/checkbox.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/chronometer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/code-block.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/code-class.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/code-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/code-function.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/code-variable.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/color-picker-white.png
@@ -2919,6 +2931,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-find-replace.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-find-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-find.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-paste.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/edit-rename.png
@@ -2934,6 +2947,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/flag-yellow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/flag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/folder-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/folder-sync.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/fork.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/format-fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/format-font-size-less.png
@@ -3084,6 +3098,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/page-zoom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/player-volume.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/pointer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/preflight-verifier.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/process-stop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/project-development-close-all.png
@@ -3104,6 +3119,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/shapes.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/show-menu.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/speaker.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/story-editor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/svn-commit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/svn-update.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/32x32/actions/system-lock-screen.png
@@ -3790,6 +3806,16 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/32x32/status/
 drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/
 drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/address-book-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-bottom-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-center.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-left-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-left.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-right-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-right.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-horizontal-top-out.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-vertical-bototm.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-vertical-center.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/align-vertical-top.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/application-exit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/appointment-new.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/archive-extract.png
@@ -3810,9 +3836,11 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/bookmarks-organize.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/character-set.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/chronometer.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/code-block.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/code-class.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/code-context.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/code-function.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/code-variable.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/color-picker-black.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/color-picker-grey.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/color-picker-white.png
@@ -3880,6 +3908,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-find-project.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-find-user.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-find.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-node.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-paste.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-redo.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/edit-rename.png
@@ -3894,6 +3923,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/flag-yellow.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/flag.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/folder-new.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/folder-sync.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/fork.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/format-fill-color.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/format-font-size-less.png
@@ -4036,6 +4066,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/page-zoom.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/player-time.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/player-volume.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/pointer.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/preflight-verifier.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/process-stop.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/project-development-close-all.png
@@ -4055,6 +4086,7 @@ drwxr-xr-x	root/root	usr/share/icons/oxygen/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/services.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/show-menu.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/speaker.png
+-rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/story-editor.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/svn-commit.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/svn-update.png
 -rw-r--r--	root/root	usr/share/icons/oxygen/48x48/actions/system-lock-screen.png
