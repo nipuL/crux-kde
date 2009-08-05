@@ -4,9 +4,9 @@
 # Depends on: automoc4 phonon
 
 name=kdelibs-experimental
-version=4.2.98
+version=4.3.0
 release=1
-source=(http://download.kde.org/unstable/$version/src/kdelibs-experimental-$version.tar.bz2)
+source=(http://download.kde.org/stable/$version/src/kdelibs-experimental-$version.tar.bz2)
 
 build () {
 	cd $name-$version
@@ -15,7 +15,8 @@ build () {
 	cd build
 
 	cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
-		 -DCMAKE_BUILD_TYPE=Release
+	    -DCMAKE_PREFIX_PATH=/usr \
+	    -DCMAKE_BUILD_TYPE=Release
 
 	make
 	make DESTDIR=$PKG install
