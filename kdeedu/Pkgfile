@@ -4,7 +4,7 @@
 # Depends on: kdebase
 
 name=kdeedu
-version=4.2.4
+version=4.3.0
 release=1
 source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
 
@@ -14,11 +14,10 @@ build () {
 	mkdir build
 	cd build
  
-	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr 
-#		-DKDE4_ENABLE_FINAL=on 
+	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr \
+	    -DCMAKE_PREFIX_PATH=/usr \
+	    -DKDE4_ENABLE_FINAL=on 
 	
-	nice make -j2
+	make
 	make DESTDIR=$PKG install
-
-	chown -R root:root $PKG
 }

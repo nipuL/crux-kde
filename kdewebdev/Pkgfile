@@ -4,9 +4,9 @@
 # Depends on: kdebase 
 
 name=kdewebdev
-version=4.2.98
+version=4.3.0
 release=1
-source=(http://download.kde.org/unstable/$version/src/$name-$version.tar.bz2)
+source=(http://download.kde.org/stable/$version/src/$name-$version.tar.bz2)
 
 build () {
 	cd $name-$version
@@ -17,6 +17,6 @@ build () {
 	cmake 	.. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release \
 	    -DCMAKE_PREFIX_PATH=/usr -DKDE4_ENABLE_FINAL=on 
 	
-	make -j1
+	make
 	make DESTDIR=$PKG install
 }

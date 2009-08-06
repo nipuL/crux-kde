@@ -1,0 +1,17 @@
+# Description:	comfortable optical disk burner
+# URL:		http://www.k3b.org/
+# Maintainer:	Lucas Hazel, lucas at die dot net dot au
+# Depends on:	kdelibs cdparanoia cdrdao cdrkit dvd+rw-tools transcode vcdimager libsamplerate
+
+name=k3b
+version=1.66.0alpha2
+release=1
+source=(http://dl.sf.net/sourceforge/$name/$name-$version.tar.bz2)
+
+build() {
+    cd $name-1.66.0
+    cmake . -DCMAKE_PREFIX_PATH=/usr \
+	-DCMAKE_INSTALL_PREFIX=/usr
+    make
+    make DESTDIR=$PKG install
+}
