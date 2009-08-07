@@ -1,7 +1,7 @@
 # Description: PIM layer, which provides an asynchronous API to access all kind of PIM data
 # URL: http://www.akonadi-project.org
 # Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: 
+# Depends on: soprano
 
 name=akonadi 
 version=1.2.0
