@@ -1,18 +1,19 @@
 # Description: PIM layer, which provides an asynchronous API to access all kind of PIM data
 # URL: http://www.akonadi-project.org
 # Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: soprano
+# Depends on: soprano automoc4
 
 name=akonadi 
 version=1.2.0
-release=1 
+release=2
 source=(http://download.akonadi-project.org/$name-$version.tar.bz2) 
 
 build() { 
 	 cd $name-$version 
 	 mkdir build
 	 cd build
-	 cmake .. -DCMAKE_INSTALL_PREFIX=/usr 
+	 cmake .. -DCMAKE_INSTALL_PREFIX=/usr \
+	     -DCMAKE_PREFIX_PATH=/usr
  	 make 
  	 make DESTDIR=$PKG install 
 }
