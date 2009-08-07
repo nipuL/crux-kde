@@ -1,7 +1,7 @@
 # Description: a lightweight C++ template library for vector and matrix math, a.k.a. linear algebra. 
 # URL: http://eigen.tuxfamily.org/
 # Maintainer: Hannes Mayer, kontakt at ecarux dot de
-# Depends on: 
+# Depends on: cmake
 
 name=eigen 
 version=2.0.4
